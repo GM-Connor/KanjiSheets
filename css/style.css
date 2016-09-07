@@ -1,5 +1,8 @@
 body {
-	padding: 0;
-	background: #fff;
-	font-size:12px;
+	background: #ebebeb;
+}
+.sidebar {
+	background: #2e404e;
+	height: 100%;
+	position: fixed;
 }

@@ -6,3 +6,6 @@ body {
 	height: 100%;
 	position: fixed;
 }
+.site-title {
+	color:#fff;
+}

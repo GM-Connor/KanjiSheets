@@ -17,13 +17,104 @@
 				<h1 class="site-title">KanjiSheets</h1>
 				<form>
 					<div class="form-group">
-						<div class="input-group">
-							<input type="text" class="form-control">
-							<span class="input-group-btn">
-								<button type="button" class="btn btn-default">
-									<span class="glyphicon glyphicon-plus"></span>
-								</button>
-							</span>
+						<div class="panel-group" id="search-expand" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="search-heading">
+									<div class="panel-title">
+										<div class="input-group" data-toggle="collapse" data-parent="#search-expand" href="#search-results" aria-expanded="true" aria-controls="search-results">
+											<input type="text" class="form-control">
+											<span class="input-group-btn">
+												<button type="button" class="btn btn-default">
+													<span class="glyphicon glyphicon-plus"></span>
+												</button>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div id="search-results" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="search-heading">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<div class="character">
+													<div class="vtable">
+														<div class="vtable-cell">赤</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					insert collapse
@@ -35,5 +126,7 @@
 			</div>
 		</div>
 	</div>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

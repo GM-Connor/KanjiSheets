@@ -9,3 +9,31 @@ body {
 .site-title {
 	color:#fff;
 }
+#search-results .row > div {
+	position: relative;
+	padding-bottom: 16.66666667%;
+	overflow: hidden;
+}
+#search-results .character {
+	position: absolute;
+	left:0;
+	height:100%;
+	width:100%;
+	padding:10%;
+	font-size:20px;
+}
+.vtable {
+	display:table;
+	height:100%;
+	width:100%;
+}
+.vtable-cell {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+
+/*Testing. delete*/
+/*#search-results .row > div:nth-child(even) {background:blue;}
+#search-results .row > div:nth-child(odd) {background:gray;}*/

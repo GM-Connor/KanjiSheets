@@ -11,7 +11,7 @@ body {
 }
 #search-results .row > div {
 	position: relative;
-	padding-bottom: 16.66666667%;
+	padding-bottom: 12.5%;
 	overflow: hidden;
 }
 #search-results .character {
@@ -19,7 +19,7 @@ body {
 	left:0;
 	height:100%;
 	width:100%;
-	padding:10%;
+	padding:1px;
 	font-size:20px;
 }
 .vtable {
@@ -35,5 +35,5 @@ body {
 }
 
 /*Testing. delete*/
-/*#search-results .row > div:nth-child(even) {background:blue;}
-#search-results .row > div:nth-child(odd) {background:gray;}*/
+#search-results .row > div:nth-child(even) {background:blue;}
+#search-results .row > div:nth-child(odd) {background:gray;}

@@ -1,6 +1,9 @@
 body {
 	background: #ebebeb;
 }
+/*
+ * SIDEBAR (left)
+ */
 .sidebar {
 	background: #2e404e;
 	height: 100%;
@@ -8,6 +11,14 @@ body {
 }
 .site-title {
 	color:#fff;
+}
+#search-heading {
+	padding:8px;
+}
+#search-results .panel-body {
+	padding:0 22px 8px;
+	border-top:none;
+	background: #f5f5f5;
 }
 #search-results .row > div {
 	position: relative;
@@ -20,7 +31,18 @@ body {
 	height:100%;
 	width:100%;
 	padding:1px;
-	font-size:20px;
+	font-size:22px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+	cursor: pointer;
+	color: #4d7fb3;
+}
+#search-results .character:hover {
+	color: #222;
+}
+#search-results .character .vtable {
+	background:#fff;
+	border:1px solid #ddd;
+	border-radius: 4px;
 }
 .vtable {
 	display:table;
@@ -33,7 +55,56 @@ body {
 	height: 100%;
 	width: 100%;
 }
+/*Stroke marker characters*/
+#search-results .character.marker, #search-results .character.marker:hover {
+	color:#555;
+	cursor: default;
+	font-weight: 600;
+}
+#search-results .character.marker .vtable {
+	background: none;
+	border:none;
+}
+/*Extra (social media, etc)*/
+.sidebar .extra {
+	position: absolute;
+	width:100%;
+	left:0;
+	bottom:0;
+	padding:15px 30px;
+}
+.sidebar .extra .about {
+	border-color: #23313c;
+	background: #293946;
+	color:#ccc;
+}
+.sidebar .extra .icons {
+	background:none;
+	border:none;
+	box-shadow: none;
+}
+.sidebar .extra .icons img {
+	cursor:pointer;
+}
+.sidebar .extra .copyright {
+	text-align: left;
+	color: #999;
+}
+.sidebar .extra .links {
+	text-align: right;
+}
+.sidebar .extra .links a {
+	color:#999;
+}
 
-/*Testing. delete*/
-#search-results .row > div:nth-child(even) {background:blue;}
-#search-results .row > div:nth-child(odd) {background:gray;}
+
+/*testing*/
+/*.sidebar .extra {background: red;}*/
+
+
+
+
+
+/*
+ * MAIN
+ */

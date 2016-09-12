@@ -1,5 +1,9 @@
 body {
 	background: #ebebeb;
+	font-family: "Helvetica Neue", Helvetica, Arial, "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+input:focus {
+	outline:none;
 }
 /*
  * SIDEBAR (left)
@@ -32,7 +36,6 @@ body {
 	width:100%;
 	padding:1px;
 	font-size:22px;
-	font-family: "Helvetica Neue", Helvetica, Arial, "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
 	cursor: pointer;
 	color: #4d7fb3;
 }
@@ -45,6 +48,7 @@ body {
 	border-radius: 4px;
 }
 .vtable {
+	position: relative;
 	display:table;
 	height:100%;
 	width:100%;
@@ -97,14 +101,86 @@ body {
 	color:#999;
 }
 
-
-/*testing*/
-/*.sidebar .extra {background: red;}*/
-
-
-
-
+/*
+ * Selected Kanji
+ */
+.selected-kanji {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.selected-kanji .row {
+	padding-left: 4px;
+}
+.selected-kanji .row > div {
+	position:relative;
+	padding: 0;
+	padding-bottom: 41.66666667%;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+.selected-kanji .character-selected {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	padding:4px;
+	font-size:25px;
+}
+.selected-kanji .character-selected .vtable {
+	border:5px solid #ccc;
+	border-radius: 4px;
+	cursor: default;
+	background: #f2f2f2;
+}
+.selected-kanji .character-selected .vtable:hover, .selected-kanji .character-selected .vtable:hover button {
+	border-color: #4bbaeb;
+}
+.selected-kanji .character-selected.new .vtable {
+	border-style: dotted;
+}
+.selected-kanji .character-selected.new input {
+	width: 100%;
+	text-align: center;
+	background: none;
+	border:none;
+}
+.selected-kanji button {
+	font-size:14px;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	background:#f2f2f2;
+	opacity: 1;
+	color:#ccc;
+	width:20px;
+	border:3px solid #ccc;
+	border-radius: 100px
+}
+.selected-kanji button:hover {
+	opacity:1;
+}
 
 /*
  * MAIN
  */
+.main {
+	padding:15px;
+	height:100%;
+	position:fixed;
+	right: 0;
+}
+.main .panel {
+	border-radius: 0;
+	height: 100%;
+	padding: 2%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
+
+/*Temporary!!!!!!!!!!!!!!!!*/
+.main .panel {
+	width: 461.717px;
+}

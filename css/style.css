@@ -1,6 +1,7 @@
 body {
 	background: #ebebeb;
 	font-family: "Helvetica Neue", Helvetica, Arial, "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+	height: 100%;
 }
 input:focus {
 	outline:none;
@@ -183,4 +184,19 @@ input:focus {
 /*Temporary!!!!!!!!!!!!!!!!*/
 .main .panel {
 	width: 461.717px;
+}
+
+svg {font-size: 50px;} 
+rect {fill:#fff;stroke:#000;stroke-width:2;} 
+line {stroke:#777777;stroke-width:1;} 
+svg .primary-text {font-size:45px;} 
+svg .secondary-text {font-size:16px;} 
+
+@media print {
+  * { margin: 0 !important; padding: 0 !important; }
+  html, body {
+    /*changing width to 100% causes huge overflow and wrap*/
+    height:100%; 
+    overflow: hidden;
+  }
 }

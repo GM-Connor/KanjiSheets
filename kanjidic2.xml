@@ -1,15 +1,15 @@
-<?xml version="10" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE kanjidic2>
 <kanjidic2>
-<c>亜~7~ア|つぐ~Asia|rank next|come after|-ous~</c>
+<c>亜~7~ア|つぐ~asia|rank next|come after|-ous~</c>
 <c>娃~9~ア|アイ|ワ|うつくしい~beautiful~</c>
-<c>阿~8~ア|オ|おもねる|くま~Africa|flatter|fawn upon|corner|nook|recess~</c>
+<c>阿~8~ア|オ|おもねる|くま~africa|flatter|fawn upon|corner|nook|recess~</c>
 <c>哀~9~アイ|あわれ|あわれむ|かなしい~pathetic|grief|sorrow|pathos|pity|sympathize~</c>
 <c>愛~13~アイ|いとしい|かなしい|めでる|おしむ|まな~love|affection|favourite~</c>
 <c>挨~10~アイ|ひらく~approach|draw near|push open~</c>
 <c>逢~10~9~ホウ|あう|むかえる~meeting|tryst|date|rendezvous~</c>
 <c>葵~12~キ|あおい~hollyhock~</c>
-<c>茜~9~セン|あかね~madder|red dye|Turkey red~</c>
+<c>茜~9~セン|あかね~madder|red dye|turkey red~</c>
 <c>悪~11~アク|オ|わるい|わる-|あし|にくい|-にくい|ああ|いずくに|いずくんぞ|にくむ~bad|vice|rascal|false|evil|wrong~</c>
 <c>握~12~アク|にぎる~grip|hold|mould sushi|bribe~</c>
 <c>渥~12~アク|あつい|うるおう~kindness|moisten~</c>
@@ -35,12 +35,12 @@
 <c>鞍~15~アン|くら~saddle~</c>
 <c>杏~7~キョウ|アン|コウ|あんず~apricot~</c>
 <c>以~5~イ|もって~by means of|because|in view of|compared with~</c>
-<c>伊~6~イ|かれ~Italy|that one~</c>
+<c>伊~6~イ|かれ~italy|that one~</c>
 <c>位~7~イ|くらい|ぐらい~rank|grade|throne|crown|about|some~</c>
 <c>依~8~イ|エ|よる~reliant|depend on|consequently|therefore|due to~</c>
 <c>偉~12~イ|えらい~admirable|greatness|remarkable|conceited|famous|excellent~</c>
 <c>囲~7~イ|かこむ|かこう|かこい~surround|besiege|store|paling|enclosure|encircle|preserve|keep~</c>
-<c>夷~6~イ|えびす|えみし|ころす|たいらげる~barbarian|savage|Ainu~</c>
+<c>夷~6~イ|えびす|えみし|ころす|たいらげる~barbarian|savage|ainu~</c>
 <c>委~8~イ|ゆだねる~committee|entrust to|leave to|devote|discard~</c>
 <c>威~9~イ|おどす|おどし|おどかす~intimidate|dignity|majesty|menace|threaten~</c>
 <c>尉~11~イ|ジョウ~military officer|jailer|old man|rank~</c>
@@ -63,7 +63,7 @@
 <c>遺~15~14~イ|ユイ|のこす~bequeath|leave behind|reserve~</c>
 <c>医~7~イ|いやす|いする|くすし~doctor|medicine~</c>
 <c>井~4~セイ|ショウ|い~well|well crib|town|community~</c>
-<c>亥~6~ガイ|カイ|い~sign of the hog|9-11PM|twelfth sign of the Chinese zodiac~</c>
+<c>亥~6~ガイ|カイ|い~sign of the hog|9-11pm|twelfth sign of the chinese zodiac~</c>
 <c>域~11~イキ~range|region|limits|stage|level~</c>
 <c>育~8~イク|そだつ|そだち|そだてる|はぐくむ~bring up|grow up|raise|rear~</c>
 <c>郁~9~8~イク~cultural progress|perfume~</c>
@@ -77,7 +77,7 @@
 <c>芋~6~ウ|いも~potato~</c>
 <c>鰯~21~いわし~sardine|(kokuji)~</c>
 <c>允~4~イン|じょう|まことに|ゆるす~license|sincerity|permit~</c>
-<c>印~6~イン|しるし|-じるし|しるす~stamp|seal|mark|imprint|symbol|emblem|trademark|evidence|souvenir|India~</c>
+<c>印~6~イン|しるし|-じるし|しるす~stamp|seal|mark|imprint|symbol|emblem|trademark|evidence|souvenir|india~</c>
 <c>咽~9~イン|エン|エツ|むせぶ|むせる|のど|のむ~throat|choked|smothered|stuffy~</c>
 <c>員~10~イン~employee|member|number|the one in charge~</c>
 <c>因~6~イン|よる|ちなむ~cause|factor|be associated with|depend on|be limited to~</c>
@@ -87,7 +87,7 @@
 <c>淫~11~イン|ひたす|ほしいまま|みだら|みだれる|みだり~lewdness|licentiousness~</c>
 <c>胤~9~イン|たね~descendent|issue|offspring~</c>
 <c>蔭~14~15~13~イン|オン|かげ~shade|shadow|backing assistance~</c>
-<c>院~10~イン~Inst|institution|temple|mansion|school~</c>
+<c>院~10~イン~inst|institution|temple|mansion|school~</c>
 <c>陰~11~イン|かげ|かげる~shade|yin|negative|sex organs|secret|shadow~</c>
 <c>隠~14~イン|オン|かくす|かくし|かくれる|かかす|よる~conceal|hide|cover~</c>
 <c>韻~19~イン~rhyme|elegance|tone~</c>
@@ -97,10 +97,10 @@
 <c>羽~6~ウ|は|わ|はね~feathers|counter for birds, rabbits~</c>
 <c>迂~6~5~ウ~roundabout way~</c>
 <c>雨~8~ウ|あめ|あま-|-さめ~rain~</c>
-<c>卯~5~ボウ|モウ|う~sign of the hare or rabbit|fourth sign of Chinese zodiac|5-7AM|east~</c>
+<c>卯~5~ボウ|モウ|う~sign of the hare or rabbit|fourth sign of chinese zodiac|5-7am|east~</c>
 <c>鵜~18~テイ|ダイ|う~cormorant~</c>
 <c>窺~16~キ|うかがう|のぞく~lie in wait|spy on|reconnoiter~</c>
-<c>丑~4~チュウ|うし~sign of the ox or cow|1-3AM|second sign of Chinese zodiac~</c>
+<c>丑~4~チュウ|うし~sign of the ox or cow|1-3am|second sign of chinese zodiac~</c>
 <c>碓~13~カク|タイ|たしか|かくたる~pestle~</c>
 <c>臼~6~キュウ|グ|うす|うすづく~mortar~</c>
 <c>渦~12~カ|うず~whirlpool|eddy|vortex~</c>
@@ -126,7 +126,7 @@
 <c>永~5~エイ|ながい~eternity|long|lengthy~</c>
 <c>泳~8~エイ|およぐ~swim~</c>
 <c>瑛~12~エイ~sparkle of jewelry|crystal~</c>
-<c>英~8~エイ|はなぶさ~England|English|hero|outstanding|calyx~</c>
+<c>英~8~エイ|はなぶさ~england|english|hero|outstanding|calyx~</c>
 <c>衛~16~エイ|エ~defense|protection~</c>
 <c>詠~12~エイ|よむ|うたう~recitation|poem|song|composing~</c>
 <c>鋭~15~エイ|するどい~pointed|sharpness|edge|weapon|sharp|violent~</c>
@@ -136,7 +136,7 @@
 <c>駅~14~エキ~station~</c>
 <c>悦~10~エツ|よろこぶ|よろこばす~ecstasy|joy|rapture~</c>
 <c>謁~15~エツ~audience|audience (with king)~</c>
-<c>越~12~エツ|オツ|こす|-こす|-ごし|こえる|-ごえ~surpass|cross over|move to|exceed|Vietnam~</c>
+<c>越~12~エツ|オツ|こす|-こす|-ごし|こえる|-ごえ~surpass|cross over|move to|exceed|vietnam~</c>
 <c>閲~15~エツ|けみする~review|inspection|revision~</c>
 <c>榎~14~カ|えのき~lotus tree|nettle tree|hackberry~</c>
 <c>円~4~エン|まるい|まる|まど|まどか|まろやか~circle|yen|round~</c>
@@ -167,11 +167,11 @@
 <c>央~5~オウ~center|middle~</c>
 <c>奥~12~オウ|おく|おくまる|くま~heart|interior~</c>
 <c>往~8~オウ|いく|いにしえ|さきに|ゆく~journey|travel|chase away|let go|going|before|formerly~</c>
-<c>応~7~オウ|ヨウ|-ノウ|あたる|まさに|こたえる~apply|answer|yes|OK|reply|accept~</c>
+<c>応~7~オウ|ヨウ|-ノウ|あたる|まさに|こたえる~apply|answer|yes|ok|reply|accept~</c>
 <c>押~8~オウ|おす|おし-|おっ-|おさえる|おさえる~push|stop|check|subdue|attach|seize|weight|shove|press|seal|do in spite of~</c>
 <c>旺~8~オウ|キョウ|ゴウ|かがやき|うつくしい|さかん~flourishing|successful|beautiful|vigorous~</c>
 <c>横~15~オウ|よこ~sideways|side|horizontal|width|woof|unreasonable|perverse~</c>
-<c>欧~8~オウ|うたう|はく~Europe~</c>
+<c>欧~8~オウ|うたう|はく~europe~</c>
 <c>殴~8~オウ|なぐる~assault|hit|beat|thrash~</c>
 <c>王~4~オウ|-ノウ~king|rule|magnate~</c>
 <c>翁~10~オウ|おきな~venerable old man~</c>
@@ -188,7 +188,7 @@
 <c>桶~11~ヨウ|トウ|おけ~tub|bucket~</c>
 <c>牡~7~ボ|ボウ|おす|お-|おん-~male~</c>
 <c>乙~1~オツ|イツ|おと-|きのと~the latter|duplicate|strange|witty|fishhook radical (no 5)~</c>
-<c>俺~10~エン|おれ|われ~I|myself~</c>
+<c>俺~10~エン|おれ|われ~i|myself~</c>
 <c>卸~9~シャ|おろす|おろし|おろし~wholesale~</c>
 <c>恩~10~オン~grace|kindness|goodness|favor|mercy|blessing|benefit~</c>
 <c>温~12~オン|あたたか|あたたかい|あたたまる|あたためる|ぬく~warm~</c>
@@ -201,7 +201,7 @@
 <c>伽~7~カ|ガ|キャ|ギャ|とぎ~nursing|attending|entertainer~</c>
 <c>価~8~カ|ケ|あたい~value|price~</c>
 <c>佳~8~カ~excellent|beautiful|good|pleasing|skilled~</c>
-<c>加~5~カ|くわえる|くわわる~add|addition|increase|join|include|Canada~</c>
+<c>加~5~カ|くわえる|くわわる~add|addition|increase|join|include|canada~</c>
 <c>可~5~カ|コク|-べき|-べし~can|passable|mustn't|should not|do not~</c>
 <c>嘉~14~カ|よみする|よい~applaud|praise|esteem|happy|auspicious~</c>
 <c>夏~10~カ|ガ|ゲ|なつ~summer~</c>
@@ -236,7 +236,7 @@
 <c>蚊~10~ブン|か~mosquito~</c>
 <c>俄~9~ガ|にわか~sudden|abrupt|improvised~</c>
 <c>峨~10~ガ|けわしい~high mountain~</c>
-<c>我~7~ガ|われ|わ|わが-|わが-~ego|I|selfish|our|oneself~</c>
+<c>我~7~ガ|われ|わ|わが-|わが-~ego|i|selfish|our|oneself~</c>
 <c>牙~5~4~ガ|ゲ|きば|は~tusk|fang|tusk radical (no 92)~</c>
 <c>画~8~ガ|カク|エ|カイ|えがく|かくする|かぎる|はかりごと|はかる~brush-stroke|picture~</c>
 <c>臥~9~ガ|ふせる|ふせる|ふす~bend down|bow|lie prostrate~</c>
@@ -371,7 +371,7 @@
 <c>款~12~カン~goodwill|article|section|friendship|collusion~</c>
 <c>歓~15~カン|よろこぶ~delight|joy~</c>
 <c>汗~6~カン|あせ~sweat|perspire~</c>
-<c>漢~13~カン~Sino-|China~</c>
+<c>漢~13~カン~sino-|china~</c>
 <c>環~17~カン|わ~ring|circle|link|wheel~</c>
 <c>甘~5~カン|あまい|あまえる|あまやかす|うまい~sweet|coax|pamper|be content|sugary~</c>
 <c>監~15~カン~oversee|official|govt office|rule|administer~</c>
@@ -393,7 +393,7 @@
 <c>閑~12~カン~leisure~</c>
 <c>関~14~カン|せき|-ぜき|かかわる|からくり|かんぬき~connection|barrier|gateway|involve|concerning~</c>
 <c>陥~10~カン|おちいる|おとしいれる~collapse|fall into|cave in|fall (castle)|slide into~</c>
-<c>韓~18~カン|から|いげた~Korea~</c>
+<c>韓~18~カン|から|いげた~korea~</c>
 <c>館~16~カン|やかた|たて~building|mansion|large building|palace~</c>
 <c>舘~16~カン|やかた|たて~mansion|large building|palace~</c>
 <c>丸~3~ガン|まる|まるめる|まるい~round|full (month)|perfection|-ship|pills|make round|roll up|curl up|seduce|explain away~</c>
@@ -420,7 +420,7 @@
 <c>嬉~15~キ|うれしい|たのしむ~glad|pleased|rejoice~</c>
 <c>寄~11~キ|よる|-より|よせる~draw near|stop in|bring near|gather|collect|send|forward~</c>
 <c>岐~7~キ|ギ~branch off|fork in road|scene|arena|theater~</c>
-<c>希~7~キ|ケ|まれ~hope|beg|request|pray|beseech|Greece|dilute (acid)|rare|few|phenomenal~</c>
+<c>希~7~キ|ケ|まれ~hope|beg|request|pray|beseech|greece|dilute (acid)|rare|few|phenomenal~</c>
 <c>幾~12~キ|いく-|いくつ|いくら~how many|how much|how far|how long|some|several~</c>
 <c>忌~7~キ|いむ|いみ|いまわしい~mourning|abhor|detestable|death anniversary~</c>
 <c>揮~12~キ|ふるう~brandish|wave|wag|swing|shake~</c>
@@ -428,7 +428,7 @@
 <c>旗~14~キ|はた~national flag|banner|standard~</c>
 <c>既~10~キ|すでに~previously|already|long ago~</c>
 <c>期~12~キ|ゴ~period|time|date|term~</c>
-<c>棋~12~キ|ご~chess piece|Japanese chess|shogi~</c>
+<c>棋~12~キ|ご~chess piece|japanese chess|shogi~</c>
 <c>棄~13~キ|すてる~abandon|throw away|discard|resign|reject|sacrifice~</c>
 <c>機~16~キ|はた~loom|mechanism|machine|airplane|opportunity|potency|efficacy|occasion~</c>
 <c>帰~10~キ|かえる|かえす|おくる|とつぐ~homecoming|arrive at|lead to|result in~</c>
@@ -485,7 +485,7 @@
 <c>休~6~キュウ|やすむ|やすまる|やすめる~rest|day off|retire|sleep~</c>
 <c>及~3~キュウ|およぶ|および|および|およぼす~reach out|exert|exercise|cause~</c>
 <c>吸~6~キュウ|すう~suck|imbibe|inhale|sip~</c>
-<c>宮~10~キュウ|グウ|ク|クウ|みや~Shinto shrine|constellations|palace|princess~</c>
+<c>宮~10~キュウ|グウ|ク|クウ|みや~shinto shrine|constellations|palace|princess~</c>
 <c>弓~3~キュウ|ゆみ~bow|bow (archery, violin)~</c>
 <c>急~9~キュウ|いそぐ|いそぎ~hurry|emergency|sudden|steep~</c>
 <c>救~11~キュウ|すくう~salvation|save|help|rescue|reclaim~</c>
@@ -620,7 +620,7 @@
 <c>勲~15~クン|いさお~meritorious deed|merit~</c>
 <c>君~7~クン|きみ|-ぎみ~mister|you|ruler|male name suffix~</c>
 <c>薫~16~クン|かおる~send forth fragrance|fragrant|be scented|smoke (tobacco)~</c>
-<c>訓~10~クン|キン|おしえる|よむ|くんずる~instruction|Japanese character reading|explanation|read~</c>
+<c>訓~10~クン|キン|おしえる|よむ|くんずる~instruction|japanese character reading|explanation|read~</c>
 <c>群~13~グン|むれる|むれ|むら|むらがる~flock|group|crowd|herd|swarm|cluster~</c>
 <c>軍~9~グン|いくさ~army|force|troops|war|battle~</c>
 <c>郡~10~9~グン|こおり~county|district~</c>
@@ -644,7 +644,7 @@
 <c>携~13~ケイ|たずさえる|たずさわる~portable|carry (in hand)|armed with|bring along~</c>
 <c>敬~12~ケイ|キョウ|うやまう~awe|respect|honor|revere~</c>
 <c>景~12~ケイ~scenery|view~</c>
-<c>桂~10~ケイ|かつら~Japanese Judas-tree|cinnamon tree~</c>
+<c>桂~10~ケイ|かつら~japanese judas-tree|cinnamon tree~</c>
 <c>渓~11~ケイ|たに|たにがわ~mountain stream|valley~</c>
 <c>稽~16~ケイ|かんがえる|とどめる~think|consider~</c>
 <c>系~7~ケイ~lineage|system~</c>
@@ -753,17 +753,17 @@
 <c>五~4~ゴ|いつ|いつつ~five~</c>
 <c>互~4~ゴ|たがい|かたみに~mutually|reciprocally|together~</c>
 <c>伍~6~ゴ|いつつ~five|five-man squad|file|line~</c>
-<c>午~4~ゴ|うま~noon|sign of the horse|11AM-1PM|seventh sign of Chinese zodiac~</c>
-<c>呉~7~ゴ|くれる|くれ~give|do something for|kingdom of Wu~</c>
-<c>吾~7~ゴ|われ|わが-|あ-~I|my|our|one's own~</c>
+<c>午~4~ゴ|うま~noon|sign of the horse|11am-1pm|seventh sign of chinese zodiac~</c>
+<c>呉~7~ゴ|くれる|くれ~give|do something for|kingdom of wu~</c>
+<c>吾~7~ゴ|われ|わが-|あ-~i|my|our|one's own~</c>
 <c>娯~10~ゴ~recreation|pleasure~</c>
 <c>後~9~ゴ|コウ|のち|うしろ|うしろ|あと|おくれる~behind|back|later~</c>
 <c>御~12~ギョ|ゴ|おん-|お-|み-~honorable|manipulate|govern~</c>
 <c>悟~10~ゴ|さとる~enlightenment|perceive|discern|realize|understand~</c>
-<c>梧~11~ゴ|あおぎり~Chinese parasol tree|phoenix tree~</c>
+<c>梧~11~ゴ|あおぎり~chinese parasol tree|phoenix tree~</c>
 <c>檎~17~キン|ゴン|ゴ~apple~</c>
 <c>瑚~13~コ|ゴ~ancestral offering receptacle|coral~</c>
-<c>碁~13~ゴ~Go~</c>
+<c>碁~13~ゴ~go~</c>
 <c>語~14~ゴ|かたる|かたらう~word|speech|language~</c>
 <c>誤~14~ゴ|あやまる|-あやまる~mistake|err|do wrong|mislead~</c>
 <c>護~20~ゴ|まもる~safeguard|protect~</c>
@@ -815,7 +815,7 @@
 <c>浩~10~コウ|おおきい|ひろい~wide expanse|abundance|vigorous~</c>
 <c>港~12~コウ|みなと~harbor~</c>
 <c>溝~13~コウ|みぞ~gutter|ditch|sewer|drain|10**32~</c>
-<c>甲~5~コウ|カン|きのえ~armor|high (voice)|A grade|first class|former|instep|carapace~</c>
+<c>甲~5~コウ|カン|きのえ~armor|high (voice)|a grade|first class|former|instep|carapace~</c>
 <c>皇~9~コウ|オウ~emperor~</c>
 <c>硬~12~コウ|かたい~stiff|hard~</c>
 <c>稿~15~コウ|わら|したがき~draft|copy|manuscript|straw~</c>
@@ -851,7 +851,7 @@
 <c>合~6~ゴウ|ガッ|カッ|あう|-あう|あい|あい-|-あい|-あい|あわす|あわせる|-あわせる~fit|suit|join|01~</c>
 <c>壕~17~コウ|ゴウ|ほり~trench|dugout|air raid shelter~</c>
 <c>拷~9~ゴウ~torture|beat~</c>
-<c>豪~14~ゴウ|えらい~overpowering|great|powerful|excelling|Australia~</c>
+<c>豪~14~ゴウ|えらい~overpowering|great|powerful|excelling|australia~</c>
 <c>轟~21~ゴウ|コウ|とどろかす|とどろく~roar|thunder|boom resound~</c>
 <c>麹~15~キク|こうじ~malt|yeast~</c>
 <c>克~7~コク|かつ~overcome|kindly|skillfully~</c>
@@ -867,7 +867,7 @@
 <c>忽~8~コツ|たちまち|ゆるがせ~in a moment|instantly|all of a sudden|neglect|disregard~</c>
 <c>惚~11~コツ|ほける|ぼける|ほれる~fall in love with|admire|grow senile~</c>
 <c>骨~10~コツ|ほね~skeleton|bone|remains|frame~</c>
-<c>狛~8~ハク|こま~archaic part of Korea|lion-dog shrine guards~</c>
+<c>狛~8~ハク|こま~archaic part of korea|lion-dog shrine guards~</c>
 <c>込~5~4~-こむ|こむ|こみ|-こみ|こめる~crowded|mixture|in bulk|included|(kokuji)~</c>
 <c>此~6~シ|これ|この|ここ~this|current|next|coming|last|past~</c>
 <c>頃~11~ケイ|キョウ|ころ|ごろ|しばらく~time|about|toward~</c>
@@ -897,7 +897,7 @@
 <c>砂~9~サ|シャ|すな~sand~</c>
 <c>詐~12~サ|いつわる~lie|falsehood|deceive|pretend~</c>
 <c>鎖~18~サ|くさり|とざす~chain|irons|connection~</c>
-<c>裟~13~サ|シャ~Buddhist surplice~</c>
+<c>裟~13~サ|シャ~buddhist surplice~</c>
 <c>坐~7~ザ|サ|すわる|おわす|そぞろに|まします~sit~</c>
 <c>座~10~ザ|すわる~squat|seat|cushion|gathering|sit~</c>
 <c>挫~10~11~ザ|サ|くじく|くじける~crush|break|sprain|discourage~</c>
@@ -921,7 +921,7 @@
 <c>砕~9~サイ|くだく|くだける~smash|break|crush|familiar|popular~</c>
 <c>砦~11~サイ|とりで~fort|stronghold|entrenchments~</c>
 <c>祭~11~サイ|まつる|まつり|まつり~ritual|offer prayers|celebrate|deify|enshrine|worship~</c>
-<c>斎~11~サイ|とき|つつしむ|ものいみ|いむ|いわう|いつく~purification|Buddhist food|room|worship|avoid|alike~</c>
+<c>斎~11~サイ|とき|つつしむ|ものいみ|いむ|いわう|いつく~purification|buddhist food|room|worship|avoid|alike~</c>
 <c>細~11~サイ|ほそい|ほそる|こまか|こまかい~dainty|get thin|taper|slender|narrow|detailed|precise~</c>
 <c>菜~11~サイ|な~vegetable|side dish|greens~</c>
 <c>裁~12~サイ|たつ|さばく~tailor|judge|decision|cut out (pattern)~</c>
@@ -936,7 +936,7 @@
 <c>坂~7~ハン|さか~slope|incline|hill~</c>
 <c>阪~7~ハン|さか~heights|slope~</c>
 <c>堺~12~カイ|さかい~world~</c>
-<c>榊~13~さかき~sacred Shinto tree|(kokuji)~</c>
+<c>榊~13~さかき~sacred shinto tree|(kokuji)~</c>
 <c>肴~8~コウ|さかな~accompaniment for drinks~</c>
 <c>咲~9~ショウ|さく|-ざき~blossom|bloom~</c>
 <c>崎~11~キ|さき|さい|みさき~promontory|cape|spit~</c>
@@ -963,7 +963,7 @@
 <c>擦~17~サツ|する|すれる|-ずれ|こする|こすれる~grate|rub|scratch|scrape|chafe|scour~</c>
 <c>札~5~サツ|ふだ~tag|paper money|counter for bonds|placard|bid~</c>
 <c>殺~10~サツ|サイ|セツ|ころす|-ごろし|そぐ~kill|murder|butcher|slice off|split|diminish|reduce|spoil~</c>
-<c>薩~17~16~サツ|サチ~Buddha~</c>
+<c>薩~17~16~サツ|サチ~buddha~</c>
 <c>雑~14~ザツ|ゾウ|まじえる|まじる~miscellaneous~</c>
 <c>皐~11~コウ|さつき~swamp|shore~</c>
 <c>錆~16~ショウ|セイ|さび|くわしい~tarnish~</c>
@@ -1003,7 +1003,7 @@
 <c>始~8~シ|はじめる|-はじめる|はじまる~commence|begin~</c>
 <c>姉~8~シ|あね|はは~elder sister~</c>
 <c>姿~9~シ|すがた~figure|form|shape~</c>
-<c>子~3~シ|ス|ツ|こ|-こ|ね~child|sign of the rat|11PM-1AM|first sign of Chinese zodiac~</c>
+<c>子~3~シ|ス|ツ|こ|-こ|ね~child|sign of the rat|11pm-1am|first sign of chinese zodiac~</c>
 <c>市~5~シ|いち~market|city|town~</c>
 <c>師~10~シ|いくさ~expert|teacher|master|model|exemplar|army (incl counter)|war~</c>
 <c>志~7~シ|シリング|こころざす|こころざし~intention|plan|resolve|aspire|motive|hopes|shilling~</c>
@@ -1020,7 +1020,7 @@
 <c>氏~4~シ|うじ|-うじ~family name|surname|clan~</c>
 <c>獅~13~シ|しし~lion~</c>
 <c>祉~8~シ~welfare|happiness~</c>
-<c>私~7~シ|わたくし|わたし~private|I|me~</c>
+<c>私~7~シ|わたくし|わたし~private|i|me~</c>
 <c>糸~6~シ|いと~thread~</c>
 <c>紙~10~シ|かみ~paper~</c>
 <c>紫~12~シ|むらさき~purple|violet~</c>
@@ -1043,7 +1043,7 @@
 <c>侍~8~ジ|シ|さむらい|はべる~waiter|samurai|wait upon|serve~</c>
 <c>児~7~ジ|ニ|ゲイ|こ|-こ|-っこ~newborn babe|child|young of animals~</c>
 <c>字~6~ジ|あざ|あざな|-な~character|letter|word|section of village~</c>
-<c>寺~6~ジ|てら~Buddhist temple~</c>
+<c>寺~6~ジ|てら~buddhist temple~</c>
 <c>慈~13~ジ|いつくしむ~mercy~</c>
 <c>持~9~ジ|もつ|-もち|もてる~hold|have~</c>
 <c>時~10~ジ|とき|-どき~time|hour~</c>
@@ -1101,7 +1101,7 @@
 <c>邪~8~ジャ|よこしま~wicked|injustice|wrong~</c>
 <c>借~10~シャク|かりる~borrow|rent~</c>
 <c>勺~3~シャク~ladle|one tenth of a go|dip~</c>
-<c>尺~4~シャク~shaku|Japanese foot|measure|scale|rule~</c>
+<c>尺~4~シャク~shaku|japanese foot|measure|scale|rule~</c>
 <c>灼~7~シャク|あらた|やく~miraculous~</c>
 <c>爵~17~シャク~baron|peerage|court rank~</c>
 <c>酌~10~シャク|くむ~bar-tending|serving sake|the host|draw (water)|ladle|scoop|pump~</c>
@@ -1124,7 +1124,7 @@
 <c>趣~15~シュ|おもむき|おもむく~purport|gist|elegance|interest|proceed to|tend|become~</c>
 <c>酒~10~シュ|さけ|さか-~sake|alcohol~</c>
 <c>首~9~シュ|くび~neck|counter for songs and poems~</c>
-<c>儒~16~ジュ~Confucian~</c>
+<c>儒~16~ジュ~confucian~</c>
 <c>受~8~ジュ|うける|-うけ|うかる~accept|undergo|answer (phone)|take|get|catch|receive~</c>
 <c>呪~8~ジュ|シュ|シュウ|ズ|まじなう|のろい|まじない|のろう~spell|curse|charm|malediction~</c>
 <c>寿~7~ジュ|ス|シュウ|ことぶき|ことぶく|ことほぐ~longevity|congratulations|one's natural life~</c>
@@ -1183,7 +1183,7 @@
 <c>春~9~シュン|はる~springtime|spring (season)~</c>
 <c>瞬~18~シュン|またたく|まじろぐ~wink|blink|twinkle~</c>
 <c>竣~12~ドウ|シュン|わらわ|わらべ|おわる~end|finish~</c>
-<c>舜~13~シュン~type of morning glory|rose of Sharon|althea~</c>
+<c>舜~13~シュン~type of morning glory|rose of sharon|althea~</c>
 <c>駿~17~シュン|スン|すぐれる~a good horse|speed|a fast person~</c>
 <c>准~10~ジュン~quasi-|semi-|associate~</c>
 <c>循~12~ジュン~sequential|follow~</c>
@@ -1252,7 +1252,7 @@
 <c>沼~8~ショウ|ぬま~marsh|lake|bog|swamp|pond~</c>
 <c>消~10~ショウ|きえる|けす~extinguish|blow out|turn off|neutralize|cancel~</c>
 <c>渉~11~ショウ|わたる~ford|go cross|transit|ferry|import|involve~</c>
-<c>湘~12~ショウ~name of Chinese river|the Sagami river~</c>
+<c>湘~12~ショウ~name of chinese river|the sagami river~</c>
 <c>焼~12~ショウ|やく|やき|やき-|-やき|やける~bake|burning~</c>
 <c>焦~12~ショウ|こげる|こがす|こがれる|あせる~char|hurry|impatient|irritate|burn|scorch|singe~</c>
 <c>照~13~ショウ|てる|てらす|てれる~illuminate|shine|compare|bashful~</c>
@@ -1284,7 +1284,7 @@
 <c>障~14~ショウ|さわる~hinder|hurt|harm~</c>
 <c>鞘~16~ショウ|ソウ|さや~sheath|case|margin|difference|shells (of beans)~</c>
 <c>上~3~ジョウ|ショウ|シャン|うえ|-うえ|うわ-|かみ|あげる|-あげる|あがる|-あがる|あがり|-あがり|のぼる|のぼり|のぼせる|のぼす|たてまつる~above|up~</c>
-<c>丈~3~ジョウ|たけ|だけ~length|ten shaku|measure|Mr|Ms|height|stature|all (one has)|only|that's all|merely~</c>
+<c>丈~3~ジョウ|たけ|だけ~length|ten shaku|measure|mr|ms|height|stature|all (one has)|only|that's all|merely~</c>
 <c>丞~6~ジョウ|ショウ|すくう|たすける~help~</c>
 <c>乗~9~ジョウ|ショウ|のる|-のり|のせる~ride|power|multiplication|record|counter for vehicles|board|mount|join~</c>
 <c>冗~4~ジョウ~superfluous|uselessness~</c>
@@ -1292,12 +1292,12 @@
 <c>城~9~ジョウ|しろ~castle~</c>
 <c>場~12~ジョウ|チョウ|ば~location|place~</c>
 <c>壌~16~ジョウ|つち~lot|earth|soil~</c>
-<c>嬢~16~ジョウ|むすめ~lass|girl|Miss|daughter~</c>
+<c>嬢~16~ジョウ|むすめ~lass|girl|miss|daughter~</c>
 <c>常~11~ジョウ|つね|とこ-~usual|ordinary|normal|regular~</c>
 <c>情~11~ジョウ|セイ|なさけ~feelings|emotion|passion|sympathy|circumstances|facts~</c>
 <c>条~7~ジョウ|チョウ|デキ|えだ|すじ~article|clause|item|stripe|streak~</c>
 <c>杖~7~ジョウ|つえ~staff|cane~</c>
-<c>浄~9~ジョウ|セイ|きよめる|きよい~clean|purify|cleanse|exorcise|Manchu Dynasty~</c>
+<c>浄~9~ジョウ|セイ|きよめる|きよい~clean|purify|cleanse|exorcise|manchu dynasty~</c>
 <c>状~7~ジョウ~status quo|conditions|circumstances|form|appearance~</c>
 <c>畳~12~ジョウ|チョウ|たたむ|たたみ|かさなる~tatami mat|counter for tatami mats|fold|shut up|do away with~</c>
 <c>穣~18~ジョウ|わら|ゆたか~good crops|prosperity|10**28~</c>
@@ -1335,10 +1335,10 @@
 <c>榛~14~シン|ハン|はしばみ|はり~hazelnut|filbert~</c>
 <c>浸~10~シン|ひたす|ひたる~immersed|soak|dip|steep|moisten|wet|dunk~</c>
 <c>深~11~シン|ふかい|-ぶかい|ふかまる|ふかめる|み-~deep|heighten|intensify|strengthen~</c>
-<c>申~5~シン|もうす|もうし-|さる~have the honor to|sign of the monkey|3-5PM|ninth sign of Chinese zodiac~</c>
-<c>真~10~シン|ま|ま-|まこと~true|reality|Buddhist sect~</c>
+<c>申~5~シン|もうす|もうし-|さる~have the honor to|sign of the monkey|3-5pm|ninth sign of chinese zodiac~</c>
+<c>真~10~シン|ま|ま-|まこと~true|reality|buddhist sect~</c>
 <c>神~9~シン|ジン|かみ|かん-|こう-~gods|mind|soul~</c>
-<c>秦~10~シン|はた~Manchu dynasty|name given to naturalized foreigners~</c>
+<c>秦~10~シン|はた~manchu dynasty|name given to naturalized foreigners~</c>
 <c>紳~11~シン~sire|good belt|gentleman~</c>
 <c>臣~7~シン|ジン~retainer|subject~</c>
 <c>芯~7~8~シン~wick~</c>
@@ -1391,7 +1391,7 @@
 <c>雛~18~スウ|ス|ジュ|ひな|ひよこ~chick|squab|duckling|doll~</c>
 <c>据~11~キョ|すえる|すわる~set|lay a foundation|install|equip|squat down|sit down~</c>
 <c>杉~7~サン|すぎ~cedar|cryptomeria~</c>
-<c>椙~12~すぎ~Japanese cedar|cryptomeria|(kokuji)~</c>
+<c>椙~12~すぎ~japanese cedar|cryptomeria|(kokuji)~</c>
 <c>菅~11~カン|ケン|すげ~sedge~</c>
 <c>頗~14~ハ|すこぶる|かたよる~prejudiced|exceedingly~</c>
 <c>雀~11~ジャク|ジャン|サク|シャク|すずめ~sparrow~</c>
@@ -1417,7 +1417,7 @@
 <c>棲~12~セイ|すむ~live|dwell~</c>
 <c>栖~10~セイ|すむ~nest|rookery|hive|cobweb|den~</c>
 <c>正~5~セイ|ショウ|ただしい|ただす|まさ|まさに~correct|justice|righteous|10**40~</c>
-<c>清~11~セイ|ショウ|シン|きよい|きよまる|きよめる~pure|purify|cleanse|exorcise|Manchu dynasty~</c>
+<c>清~11~セイ|ショウ|シン|きよい|きよまる|きよめる~pure|purify|cleanse|exorcise|manchu dynasty~</c>
 <c>牲~9~セイ~animal sacrifice|offering~</c>
 <c>生~5~セイ|ショウ|いきる|いかす|いける|うまれる|うまれる|うまれ|うまれ|うむ|おう|はえる|はやす|き|なま|なま-|なる|なす|むす|-う~life|genuine|birth~</c>
 <c>盛~11~セイ|ジョウ|もる|さかる|さかん~boom|prosper|copulate~</c>
@@ -1425,7 +1425,7 @@
 <c>聖~13~セイ|ショウ|ひじり~holy|saint|sage|master|priest~</c>
 <c>声~7~セイ|ショウ|こえ|こわ-~voice~</c>
 <c>製~14~セイ~made in|manufacture~</c>
-<c>西~6~セイ|サイ|ス|にし~west|Spain~</c>
+<c>西~6~セイ|サイ|ス|にし~west|spain~</c>
 <c>誠~13~セイ|まこと~sincerity|admonish|warn|prohibit|truth|fidelity~</c>
 <c>誓~14~セイ|ちかう~vow|swear|pledge~</c>
 <c>請~15~セイ|シン|ショウ|こう|うける~solicit|invite|ask~</c>
@@ -1498,13 +1498,13 @@
 <c>銭~14~セン|ゼン|ぜに|すき~coin|01 yen|money~</c>
 <c>銑~14~セン~pig iron~</c>
 <c>閃~10~セン|ひらめく|ひらめき|うかがう~flash|brandish~</c>
-<c>鮮~17~セン|あざやか~fresh|vivid|clear|brilliant|Korea~</c>
+<c>鮮~17~セン|あざやか~fresh|vivid|clear|brilliant|korea~</c>
 <c>前~9~ゼン|まえ|-まえ~in front|before~</c>
 <c>善~12~ゼン|よい|いい|よく|よしとする~virtuous|good|goodness~</c>
 <c>漸~14~ゼン|ようやく|やや|ようよう|すすむ~steadily|gradually advancing|finally|barely~</c>
 <c>然~12~ゼン|ネン|しか|しかり|しかし|さ~sort of thing|so|if so|in that case|well~</c>
 <c>全~6~ゼン|まったく|すべて~whole|entire|all|complete|fulfill~</c>
-<c>禅~13~ゼン|セン|しずか|ゆずる~Zen|silent meditation~</c>
+<c>禅~13~ゼン|セン|しずか|ゆずる~zen|silent meditation~</c>
 <c>繕~18~ゼン|つくろう~darning|repair|mend|trim|tidy up|adjust~</c>
 <c>膳~16~ゼン|セン|かしわ|すすめる|そなえる~small low table|tray~</c>
 <c>噌~14~ソウ|ショウ|ソ|かまびすしい~boisterous~</c>
@@ -1526,7 +1526,7 @@
 <c>訴~12~ソ|うったえる~accusation|sue|complain of pain|appeal to~</c>
 <c>阻~8~ソ|はばむ~thwart|separate from|prevent|obstruct|deter|impede~</c>
 <c>遡~13~14~ソ|サク|さかのぼる~go upstream|retrace the past~</c>
-<c>僧~13~ソウ~Buddhist priest|monk~</c>
+<c>僧~13~ソウ~buddhist priest|monk~</c>
 <c>創~12~ソウ|ショウ|つくる|はじめる|きず|けずしける~genesis|wound|injury|hurt|start|originate~</c>
 <c>双~4~ソウ|ふた|たぐい|ならぶ|ふたつ~pair|set|comparison|counter for pairs~</c>
 <c>叢~18~ソウ|ス|くさむら|むらがる|むら~plexus|clump of bushes|thicket~</c>
@@ -1535,7 +1535,7 @@
 <c>壮~6~ソウ|さかん~robust|manhood|prosperity~</c>
 <c>奏~9~ソウ|かなでる~play music|speak to a ruler|complete~</c>
 <c>爽~11~ソウ|あきらか|さわやか|たがう~refreshing|bracing|resonant|sweet|clear~</c>
-<c>宋~7~ソウ~dwell|Sung dynasty~</c>
+<c>宋~7~ソウ~dwell|sung dynasty~</c>
 <c>層~14~ソウ~stratum|social class|layer|story|floor~</c>
 <c>惣~12~ソウ|すべて~all~</c>
 <c>想~13~ソウ|ソ|おもう~concept|think|idea|thought~</c>
@@ -1623,7 +1623,7 @@
 <c>態~14~タイ|わざと~attitude|condition|figure|appearance|voice (of verbs)~</c>
 <c>戴~17~18~タイ|いただく~be crowned with|live under (a ruler)|receive~</c>
 <c>替~12~タイ|かえる|かえ-|かわる~exchange|spare|substitute|per-~</c>
-<c>泰~10~タイ~peaceful|calm|peace|easy|Thailand|extreme|excessive|great~</c>
+<c>泰~10~タイ~peaceful|calm|peace|easy|thailand|extreme|excessive|great~</c>
 <c>滞~13~タイ|テイ|とどこおる~stagnate|be delayed|overdue|arrears~</c>
 <c>胎~9~タイ~womb|uterus~</c>
 <c>苔~8~タイ|こけ|こけら~moss|lichen~</c>
@@ -1637,8 +1637,8 @@
 <c>代~5~ダイ|タイ|かわる|かわる|かわり|かわり|-がわり|-がわり|かえる|よ|しろ~substitute|change|convert|replace|period|age|counter for decades of ages, eras, etc|generation|charge|rate|fee~</c>
 <c>台~5~ダイ|タイ|うてな|われ|つかさ~pedestal|a stand|counter for machines and vehicles~</c>
 <c>大~3~ダイ|タイ|おお-|おおきい|-おおいに~large|big~</c>
-<c>第~11~ダイ|テイ~No|residence~</c>
-<c>醍~16~ダイ|タイ|テイ~whey|good Buddhist teaching~</c>
+<c>第~11~ダイ|テイ~no|residence~</c>
+<c>醍~16~ダイ|タイ|テイ~whey|good buddhist teaching~</c>
 <c>題~18~ダイ~topic|subject~</c>
 <c>鷹~24~ヨウ|オウ|たか~hawk~</c>
 <c>滝~13~ロウ|ソウ|たき~waterfall|rapids|cascade~</c>
@@ -1661,7 +1661,7 @@
 <c>叩~5~コウ|たたく|はたく|すぎ~strike|beat|hit|thrash|criticize~</c>
 <c>但~7~タン|ただし~however|but~</c>
 <c>達~12~11~タツ|ダ|-たち~accomplished|reach|arrive|attain~</c>
-<c>辰~7~シン|ジン|たつ~sign of the dragon|7-9AM|fifth sign of Chinese zodiac|shin dragon radical (no 161)~</c>
+<c>辰~7~シン|ジン|たつ~sign of the dragon|7-9am|fifth sign of chinese zodiac|shin dragon radical (no 161)~</c>
 <c>奪~14~ダツ|うばう~rob|take by force|snatch away|dispossess|plunder|usurp~</c>
 <c>脱~11~ダツ|ぬぐ|ぬげる~undress|removing|escape from|get rid of|be left out|take off~</c>
 <c>巽~12~ソン|たつみ~southeast~</c>
@@ -1755,7 +1755,7 @@
 <c>懲~18~チョウ|こりる|こらす|こらしめる~penal|chastise|punish|discipline~</c>
 <c>挑~9~チョウ|いどむ~challenge|contend for|make love to~</c>
 <c>暢~14~チョウ|のびる~stretch~</c>
-<c>朝~12~チョウ|あさ~morning|dynasty|regime|epoch|period|(North) Korea~</c>
+<c>朝~12~チョウ|あさ~morning|dynasty|regime|epoch|period|(north) korea~</c>
 <c>潮~15~チョウ|しお|うしお~tide|salt water|opportunity~</c>
 <c>牒~13~チョウ|ジョウ|ふだ~label|genealogy|circular~</c>
 <c>町~7~チョウ|まち~town|village|block|street~</c>
@@ -1789,7 +1789,7 @@
 <c>痛~12~ツウ|いたい|いたむ|いたましい|いためる~pain|hurt|damage|bruise~</c>
 <c>通~10~9~ツウ|ツ|とおる|とおり|-とおり|-どおり|とおす|とおし|-どおし|かよう~traffic|pass through|avenue|commute|counter for letters, notes, documents, etc~</c>
 <c>塚~12~チョウ|つか|-づか~hillock|mound~</c>
-<c>槻~15~キ|つき~Zelkova tree~</c>
+<c>槻~15~キ|つき~zelkova tree~</c>
 <c>佃~7~テン|デン|つくだ~cultivated rice field~</c>
 <c>漬~14~シ|つける|つかる|-づけ|-づけ~pickling|soak|moisten|steep~</c>
 <c>柘~9~シャ|ジャク|そ|つげ|やまぐわ~wild mulberry~</c>
@@ -1834,7 +1834,7 @@
 <c>蹄~16~テイ|ひづめ~hoof~</c>
 <c>逓~10~9~テイ|かわる|たがいに~relay|in turn|sending~</c>
 <c>邸~8~7~テイ|やしき~residence|mansion~</c>
-<c>鄭~15~14~テイ|ジョウ~an ancient Chinese province~</c>
+<c>鄭~15~14~テイ|ジョウ~an ancient chinese province~</c>
 <c>釘~10~テイ|チョウ|くぎ~nail|tack|peg~</c>
 <c>鼎~13~テイ|かなえ~three legged kettle~</c>
 <c>泥~8~デイ|ナイ|デ|ニ|どろ~mud|mire|adhere to|be attached to~</c>
@@ -1862,7 +1862,7 @@
 <c>転~11~テン|ころがる|ころげる|ころがす|ころぶ|まろぶ|うたた|うつる|くるめく~revolve|turn around|change~</c>
 <c>点~9~テン|つける|つく|たてる|さす|とぼす|ともす|ぼち~spot|point|mark|speck|decimal point~</c>
 <c>伝~6~デン|テン|つたわる|つたえる|つたう|つだう|-づたい|つて~transmit|go along|walk along|follow|report|communicate|legend|tradition~</c>
-<c>殿~13~デン|テン|との|-どの~Mr|hall|mansion|palace|temple|lord~</c>
+<c>殿~13~デン|テン|との|-どの~mr|hall|mansion|palace|temple|lord~</c>
 <c>田~5~デン|た~rice field|rice paddy~</c>
 <c>電~13~デン~electricity~</c>
 <c>兎~8~7~ト|ツ|うさぎ~rabbit|hare~</c>
@@ -1871,7 +1871,7 @@
 <c>塗~13~ト|ぬる|ぬり|まみれる~paint|plaster|daub|smear|coating~</c>
 <c>妬~8~ト|ツ|ねたむ|そねむ|つもる|ふさぐ~jealous|envy~</c>
 <c>徒~10~ト|いたずら|あだ~on foot|junior|emptiness|vanity|futility|uselessness|ephemeral thing|gang|set|party|people~</c>
-<c>斗~4~ト|トウ~Big Dipper|ten sho (vol)|sake dipper|dots and cross radical (no 68)~</c>
+<c>斗~4~ト|トウ~big dipper|ten sho (vol)|sake dipper|dots and cross radical (no 68)~</c>
 <c>杜~7~ト|トウ|ズ|もり|ふさぐ|やまなし~woods|grove~</c>
 <c>渡~12~ト|わたる|-わたる|わたす~transit|ford|ferry|cross|import|deliver|diameter|migrate~</c>
 <c>登~12~トウ|ト|ドウ|ショウ|チョウ|のぼる|あがる~ascend|climb up~</c>
@@ -1881,7 +1881,7 @@
 <c>砥~10~シ|テイ|キイ|チ|と|といし|とぐ|みがく~whetstone|grindstone~</c>
 <c>努~7~ド|つとめる~toil|diligent|as much as possible~</c>
 <c>度~9~ド|ト|タク|たび|-たい~degrees|occurrence|time|counter for occurrences|consider|attitude~</c>
-<c>土~3~ド|ト|つち~soil|earth|ground|Turkey~</c>
+<c>土~3~ド|ト|つち~soil|earth|ground|turkey~</c>
 <c>奴~5~ド|やつ|やっこ~guy|slave|manservant|fellow~</c>
 <c>怒~9~ド|ヌ|いかる|おこる~angry|be offended~</c>
 <c>倒~10~トウ|たおれる|-だおれ|たおす|さかさま|さかさ|さかしま~overthrow|fall|collapse|drop|break down~</c>
@@ -1889,7 +1889,7 @@
 <c>冬~5~トウ|ふゆ~winter~</c>
 <c>凍~10~トウ|こおる|こごえる|こごる|いてる|しみる~frozen|congeal|refrigerate~</c>
 <c>刀~2~トウ|かたな|そり~sword|saber|knife~</c>
-<c>唐~10~トウ|から~T'ang|China|foreign~</c>
+<c>唐~10~トウ|から~t'ang|china|foreign~</c>
 <c>塔~12~トウ~pagoda|tower|steeple~</c>
 <c>套~10~トウ|かさねる~accumulate|big and long|hackneyed~</c>
 <c>宕~8~トウ|すぎる~cave~</c>
@@ -1949,7 +1949,7 @@
 <c>督~13~トク~coach|command|urge|lead|supervise~</c>
 <c>篤~16~トク|あつい~fervent|kind|cordial|serious|deliberate~</c>
 <c>毒~8~ドク~poison|virus|venom|germ|harm|injury|spite~</c>
-<c>独~9~ドク|トク|ひとり~single|alone|spontaneously|Germany~</c>
+<c>独~9~ドク|トク|ひとり~single|alone|spontaneously|germany~</c>
 <c>読~14~ドク|トク|トウ|よむ|-よみ~read~</c>
 <c>栃~9~とち~horse chestnut|(kokuji)~</c>
 <c>凸~5~トツ|でこ~convex|beetle brow|uneven~</c>
@@ -1957,8 +1957,8 @@
 <c>届~8~カイ|とどける|-とどけ|とどく~deliver|reach|arrive|report|notify|forward~</c>
 <c>鳶~14~エン|とび|とんび~black kite|fireman|hook~</c>
 <c>苫~8~セン|とま~rush matting~</c>
-<c>寅~11~イン|とら~sign of the tiger|3-5AM|third sign of Chinese zodiac~</c>
-<c>酉~7~ユウ|とり~west|bird|sign of the bird|5-7PM|tenth sign of Chinese zodiac|sake radical (no 164)~</c>
+<c>寅~11~イン|とら~sign of the tiger|3-5am|third sign of chinese zodiac~</c>
+<c>酉~7~ユウ|とり~west|bird|sign of the bird|5-7pm|tenth sign of chinese zodiac|sake radical (no 164)~</c>
 <c>屯~4~トン|たむろ~barracks|police station|camp|ton~</c>
 <c>惇~11~シュン|ジュン|トン|あつい~sincere|kind|considerate~</c>
 <c>敦~12~トン|タイ|ダン|チョウ|あつい~industry|kindliness~</c>
@@ -1969,7 +1969,7 @@
 <c>呑~7~トン|ドン|のむ~drink~</c>
 <c>曇~16~ドン|くもる~cloudy weather|cloud up~</c>
 <c>鈍~12~ドン|にぶい|にぶる|にぶ-|なまる|なまくら~dull|slow|foolish|blunt~</c>
-<c>奈~8~ナ|ナイ|ダイ|いかん|からなし~Nara|what?~</c>
+<c>奈~8~ナ|ナイ|ダイ|いかん|からなし~nara|what?~</c>
 <c>那~7~6~ナ|ダ|なに|なんぞ|いかん~what?~</c>
 <c>内~4~ナイ|ダイ|うち~inside|within|between|among|house|home~</c>
 <c>凪~6~なぎ|なぐ~lull|calm|(kokuji)~</c>
@@ -1988,13 +1988,13 @@
 <c>汝~6~ジョ|なんじ|なれ|い|うぬ|いまし|し|しゃ|な|なむち|まし|みまし~you|thou~</c>
 <c>二~2~ニ|ジ|ふた|ふたつ|ふたたび~two|two radical (no2)~</c>
 <c>尼~5~ニ|あま~nun~</c>
-<c>弐~6~ニ|ジ|ふたつ|そえ~II|two|second~</c>
+<c>弐~6~ニ|ジ|ふたつ|そえ~ii|two|second~</c>
 <c>匂~4~におう|におい|におわせる~fragrant|stink|glow|insinuate|(kokuji)~</c>
 <c>賑~14~シン|にぎわい|にぎやか|にぎわす|にぎわう~flourish|be bustling|prosperity~</c>
 <c>肉~6~ニク|しし~meat~</c>
 <c>虹~9~コウ|にじ~rainbow~</c>
 <c>廿~4~ジュウ|ニュウ|にじゅう~twenty~</c>
-<c>日~4~ニチ|ジツ|ひ|-び|-か~day|sun|Japan|counter for days~</c>
+<c>日~4~ニチ|ジツ|ひ|-び|-か~day|sun|japan|counter for days~</c>
 <c>乳~8~ニュウ|ちち|ち~milk|breasts~</c>
 <c>入~2~ニュウ|ジュ|いる|-いる|-いり|いれる|-いれ|はいる~enter|insert~</c>
 <c>如~6~ジョ|ニョ|ごとし~likeness|like|such as|as if|better|best|equal~</c>
@@ -2030,7 +2030,7 @@
 <c>播~15~ハ|バン|ハン|まく~plant|sow~</c>
 <c>覇~19~ハ|ハク|はたがしら~hegemony|supremacy|leadership|champion~</c>
 <c>杷~8~ハ|つか~kind of rake~</c>
-<c>波~8~ハ|なみ~waves|billows|Poland~</c>
+<c>波~8~ハ|なみ~waves|billows|poland~</c>
 <c>派~9~ハ~faction|group|party|clique|sect|school~</c>
 <c>琶~12~ハ|ベ|ワ~lute~</c>
 <c>破~10~ハ|やぶる|やぶれる|われる~rend|rip|tear|break|destroy|defeat|frustrate~</c>
@@ -2062,9 +2062,9 @@
 <c>這~10~9~シャ|ゲン|はう|はい|むかえる|この~crawl|creep|grovel|trail (vines)~</c>
 <c>秤~10~ショウ|ヒン|ビン|はかり~balances|scales|steelyard~</c>
 <c>萩~12~シュウ|はぎ~bush clover~</c>
-<c>伯~7~ハク~chief|count|earl|uncle|Brazil~</c>
+<c>伯~7~ハク~chief|count|earl|uncle|brazil~</c>
 <c>剥~10~ハク|ホク|へぐ|へずる|むく|むける|はがれる|はぐ|はげる|はがす~come off|peel|fade|discolor~</c>
-<c>博~12~ハク|バク~Dr|command|esteem|win acclaim|PhD|exposition|fair~</c>
+<c>博~12~ハク|バク~dr|command|esteem|win acclaim|phd|exposition|fair~</c>
 <c>拍~8~ハク|ヒョウ~clap|beat (music)~</c>
 <c>柏~9~ハク|ヒャク|ビャク|かしわ~oak~</c>
 <c>泊~8~ハク|とまる|とめる~overnight stay|put up at|ride at anchor~</c>
@@ -2140,7 +2140,7 @@
 <c>批~7~ヒ~criticism|strike~</c>
 <c>披~8~ヒ~expose|open~</c>
 <c>斐~12~ヒ|イ~beautiful|patterned~</c>
-<c>比~4~ヒ|くらべる~compare|race|ratio|Philippines~</c>
+<c>比~4~ヒ|くらべる~compare|race|ratio|philippines~</c>
 <c>泌~8~ヒツ|ヒ~ooze|flow|soak in|penetrate|secrete~</c>
 <c>疲~10~ヒ|つかれる|-づかれ|つからす~exhausted|tire|weary~</c>
 <c>皮~5~ヒ|かわ~pelt|skin|hide|leather|skin radical (no 107)~</c>
@@ -2174,7 +2174,7 @@
 <c>必~5~ヒツ|かならず~invariably|certain|inevitable~</c>
 <c>畢~11~10~ヒツ|おわる|あみ|おわり|ことごとく~the end|finish~</c>
 <c>筆~12~ヒツ|ふで~writing brush|writing|painting brush|handwriting~</c>
-<c>桧~10~カイ|ひのき|ひ~Japanese cypress~</c>
+<c>桧~10~カイ|ひのき|ひ~japanese cypress~</c>
 <c>姫~10~キ|ひめ|ひめ-~princess~</c>
 <c>媛~12~エン|ひめ~beautiful woman|princess~</c>
 <c>紐~10~チュウ|ジュウ|ひも~string|cord|braid|lace|tape|strap|ribbon~</c>
@@ -2200,7 +2200,7 @@
 <c>浜~10~ヒン|はま~seacoast|beach|seashore~</c>
 <c>瀕~20~ヒン|ほとり~shore|brink|verge~</c>
 <c>貧~11~ヒン|ビン|まずしい~poverty|poor~</c>
-<c>賓~15~ヒン~VIP|guest~</c>
+<c>賓~15~ヒン~vip|guest~</c>
 <c>頻~17~ヒン|しきりに~repeatedly|recur~</c>
 <c>敏~10~ビン|さとい~cleverness|agile|alert~</c>
 <c>瓶~11~ビン|かめ~bottle|vial|jar|jug|vat|urn~</c>
@@ -2216,13 +2216,13 @@
 <c>扶~7~フ|たすける~aid|help|assist~</c>
 <c>敷~15~フ|しく|-しき~spread|pave|sit|promulgate~</c>
 <c>斧~8~フ|おの~ax|hatchet~</c>
-<c>普~12~フ|あまねく|あまねし~universal|wide(ly)|generally|Prussia~</c>
+<c>普~12~フ|あまねく|あまねし~universal|wide(ly)|generally|prussia~</c>
 <c>浮~10~フ|うく|うかれる|うかぶ|む|うかべる~floating|float|rise to surface~</c>
 <c>父~4~フ|ちち~father~</c>
 <c>符~11~フ~token|sign|mark|tally|charm~</c>
 <c>腐~14~フ|くさる|-くさる|くされる|くされ|くさらす|くさす~rot|decay|sour~</c>
 <c>膚~15~フ|はだ~skin|body|grain|texture|disposition~</c>
-<c>芙~7~フ~lotus|Mt Fuji~</c>
+<c>芙~7~フ~lotus|mt fuji~</c>
 <c>譜~19~フ~musical score|music|note|staff|table|genealogy~</c>
 <c>負~9~フ|まける|まかす|おう~defeat|negative|-|minus|bear|owe|assume a responsibility~</c>
 <c>賦~15~フ|ブ~levy|ode|prose|poem|tribute|installment~</c>
@@ -2233,7 +2233,7 @@
 <c>撫~15~ブ|フ|なでる~stroke|pat|smooth down~</c>
 <c>武~8~ブ|ム|たけ|たけし~warrior|military|chivalry|arms~</c>
 <c>舞~15~ブ|まう|-まう|まい~dance|flit|circle|wheel~</c>
-<c>葡~12~ブ|ホ~wild grape|Portugal~</c>
+<c>葡~12~ブ|ホ~wild grape|portugal~</c>
 <c>蕪~15~ブ|ム|かぶ|かぶら|あれる~turnip~</c>
 <c>部~11~10~ブ|-べ~section|bureau|dept|class|copy|part|portion|counter for copies of a newspaper or magazine~</c>
 <c>封~9~フウ|ホウ~seal|closing~</c>
@@ -2253,7 +2253,7 @@
 <c>淵~12~エン|カク|コウ|ふち|かたい|はなわ~abyss|edge|deep pool|the depths~</c>
 <c>払~5~フツ|ヒツ|ホツ|はらう|-はらい|-ばらい~pay|clear out|prune|banish|dispose of~</c>
 <c>沸~8~フツ|わく|わかす~seethe|boil|ferment|uproar|breed~</c>
-<c>仏~4~ブツ|フツ|ほとけ~Buddha|the dead|France~</c>
+<c>仏~4~ブツ|フツ|ほとけ~buddha|the dead|france~</c>
 <c>物~8~ブツ|モツ|もの|もの-~thing|object|matter~</c>
 <c>分~4~ブン|フン|ブ|わける|わけ|わかれる|わかる|わかつ~part|minute of time|segment|share|degree|one's lot|duty|understand|know|rate|1%|chances|shaku/100~</c>
 <c>吻~7~フン|ブン|くちわき|くちさき~proboscis~</c>
@@ -2272,7 +2272,7 @@
 <c>併~8~ヘイ|あわせる~join|get together|unite|collective~</c>
 <c>兵~7~ヘイ|ヒョウ|つわもの~soldier|private|troops|army|warfare|strategy|tactics~</c>
 <c>塀~12~ヘイ|ベイ~fence|wall|(kokuji)~</c>
-<c>幣~15~ヘイ|ぬさ~cash|bad habit|humble prefix|gift|Shinto offerings of cloth|rope|cut paper~</c>
+<c>幣~15~ヘイ|ぬさ~cash|bad habit|humble prefix|gift|shinto offerings of cloth|rope|cut paper~</c>
 <c>平~5~ヘイ|ビョウ|ヒョウ|たいら|-だいら|ひら|ひら-~even|flat|peace~</c>
 <c>弊~15~ヘイ~abuse|evil|vice|breakage~</c>
 <c>柄~9~ヘイ|がら|え|つか~design|pattern|build|nature|character|handle|crank|grip|knob|shaft~</c>
@@ -2280,7 +2280,7 @@
 <c>蔽~15~16~ヘイ|ヘツ|フツ|おおう|おおい~cover|shade|mantle|capsize|be ruined~</c>
 <c>閉~11~ヘイ|とじる|とざす|しめる|しまる|たてる~closed|shut~</c>
 <c>陛~10~ヘイ~highness|steps (of throne)~</c>
-<c>米~6~ベイ|マイ|メエトル|こめ|よね~rice|USA|metre~</c>
+<c>米~6~ベイ|マイ|メエトル|こめ|よね~rice|usa|metre~</c>
 <c>頁~9~ケツ|ぺえじ|おおがい|かしら~page|leaf~</c>
 <c>壁~16~ヘキ|かべ~wall|lining (stomach)|fence~</c>
 <c>癖~18~ヘキ|くせ|くせに~mannerism|habit|vice|trait|fault|kink~</c>
@@ -2345,7 +2345,7 @@
 <c>褒~15~ホウ|ほめる~praise|extol~</c>
 <c>訪~11~ホウ|おとずれる|たずねる|とう~call on|visit|look up|offer sympathy~</c>
 <c>豊~13~ホウ|ブ|ゆたか|とよ~bountiful|excellent|rich~</c>
-<c>邦~7~6~ホウ|くに~home country|country|Japan~</c>
+<c>邦~7~6~ホウ|くに~home country|country|japan~</c>
 <c>鋒~15~ホウ|きっさき|とかり|ほこさき~dagger|sword's point|festival car|float~</c>
 <c>飽~13~ホウ|あきる|あかす|あく~sated|tired of|bored|satiate~</c>
 <c>鳳~14~ホウ|フウ~male mythical bird~</c>
@@ -2375,9 +2375,9 @@
 <c>防~7~ボウ|ふせぐ~ward off|defend|protect|resist~</c>
 <c>頬~15~キョウ|ほお|ほほ~cheeks|jaw~</c>
 <c>北~5~ホク|きた~north~</c>
-<c>僕~14~ボク|しもべ~me|I (male)|servant|manservant~</c>
+<c>僕~14~ボク|しもべ~me|i (male)|servant|manservant~</c>
 <c>卜~2~ボク|うらなう|うらない~divining|fortune-telling|divination or katakana to radical (no 25)~</c>
-<c>墨~14~ボク|すみ~black ink|India ink|ink stick|Mexico~</c>
+<c>墨~14~ボク|すみ~black ink|india ink|ink stick|mexico~</c>
 <c>撲~15~ボク~slap|strike|hit|beat|tell|speak~</c>
 <c>朴~6~ボク|ほう|ほお|えのき~crude|simple|plain|docile~</c>
 <c>牧~8~ボク|まき~breed|care for|shepherd|feed|pasture~</c>
@@ -2417,16 +2417,16 @@
 <c>沫~8~マツ|バツ|あわ|しぶき|つばき~splash|suds~</c>
 <c>迄~6~5~キツ|まで|およぶ~until|up to|as far as|to the extent~</c>
 <c>繭~18~ケン|まゆ|きぬ~cocoon~</c>
-<c>麿~18~まろ~I|you|(kokuji)~</c>
+<c>麿~18~まろ~i|you|(kokuji)~</c>
 <c>万~3~マン|バン|よろず~ten thousand|10,000~</c>
 <c>慢~14~マン~ridicule|laziness~</c>
 <c>満~12~マン|バン|みちる|みつ|みたす~full|fullness|enough|satisfy~</c>
 <c>漫~14~マン|みだりに|そぞろ~cartoon|involuntarily|unrestrained|in spite of oneself|corrupt~</c>
 <c>蔓~14~マン|バン|はびこる|つる~vine|tendril|influence|connections|good offices|spread|sprawl|thrive|rampant|powerful~</c>
 <c>味~8~ミ|あじ|あじわう~flavor|taste~</c>
-<c>未~5~ミ|ビ|いまだ|まだ|ひつじ~un-|not yet|hitherto|still|even now|sign of the ram|1-3PM|eighth sign of Chinese zodiac~</c>
+<c>未~5~ミ|ビ|いまだ|まだ|ひつじ~un-|not yet|hitherto|still|even now|sign of the ram|1-3pm|eighth sign of chinese zodiac~</c>
 <c>魅~15~ミ~fascination|charm|bewitch~</c>
-<c>巳~3~シ|み~sign of the snake or serpent|9-11AM|sixth sign of Chinese zodiac~</c>
+<c>巳~3~シ|み~sign of the snake or serpent|9-11am|sixth sign of chinese zodiac~</c>
 <c>箕~14~キ|み~winnowing~</c>
 <c>岬~8~コウ|みさき~headland|cape|spit|promontory~</c>
 <c>密~11~ミツ|ひそか~secrecy|density (pop)|minuteness|carefulness~</c>
@@ -2471,7 +2471,7 @@
 <c>盲~8~モウ|めくら~blind|blind man|ignoramus~</c>
 <c>網~14~モウ|あみ~netting|network~</c>
 <c>耗~10~モウ|コウ~decrease~</c>
-<c>蒙~13~14~モウ|ボウ|こうむる|おおう|くらい~ignorance|darkness|get|receive|be subjected to|sustain|Mongolia~</c>
+<c>蒙~13~14~モウ|ボウ|こうむる|おおう|くらい~ignorance|darkness|get|receive|be subjected to|sustain|mongolia~</c>
 <c>儲~17~チョ|もうける|もうかる|もうけ|たくわえる~be profitable|yield profit~</c>
 <c>木~4~ボク|モク|き|こ-~tree|wood~</c>
 <c>黙~15~モク|ボク|だまる|もだす~silence|become silent|stop speaking|leave as is~</c>
@@ -2531,7 +2531,7 @@
 <c>雄~12~ユウ|お-|おす|おん~masculine|male|hero|leader|superiority|excellence~</c>
 <c>融~16~ユウ|とける|とかす~dissolve|melt~</c>
 <c>夕~3~セキ|ゆう~evening~</c>
-<c>予~4~ヨ|シャ|あらかじめ~beforehand|previous|myself|I~</c>
+<c>予~4~ヨ|シャ|あらかじめ~beforehand|previous|myself|i~</c>
 <c>余~7~ヨ|あまる|あまり|あます|あんまり~too much|myself|surplus|other|remainder~</c>
 <c>与~3~ヨ|あたえる|あずかる|くみする|ともに~bestow|participate in|give|award|impart|provide|cause|gift|godsend~</c>
 <c>誉~13~ヨ|ほまれ|ほめる~reputation|praise|honor|glory~</c>
@@ -2547,7 +2547,7 @@
 <c>擁~16~ヨウ~hug|embrace|possess|protect|lead~</c>
 <c>曜~18~ヨウ~weekday~</c>
 <c>楊~13~ヨウ|やなぎ~willow~</c>
-<c>様~14~ヨウ|ショウ|さま|さん~Esq|way|manner|situation|polite suffix~</c>
+<c>様~14~ヨウ|ショウ|さま|さん~esq|way|manner|situation|polite suffix~</c>
 <c>洋~9~ヨウ~ocean|western style~</c>
 <c>溶~13~ヨウ|とける|とかす|とく~melt|dissolve|thaw~</c>
 <c>用~5~ヨウ|もちいる~utilize|business|service|use|employ~</c>
@@ -2569,13 +2569,13 @@
 <c>翌~11~ヨク~the following|next~</c>
 <c>翼~17~ヨク|つばさ~wing|plane|flank~</c>
 <c>淀~11~テン|デン|よどむ~pool|eddy~</c>
-<c>羅~19~ラ|うすもの~gauze|thin silk|Rome|arrange|spread out~</c>
+<c>羅~19~ラ|うすもの~gauze|thin silk|rome|arrange|spread out~</c>
 <c>螺~17~ラ|にし|にな~small, edible, helical fresh-water mollusk~</c>
 <c>裸~13~ラ|はだか~naked|nude|uncovered|partially clothed~</c>
 <c>来~7~ライ|タイ|くる|きたる|きたす|きたす|きたる|き|こ~come|due|next|cause|become~</c>
 <c>頼~16~ライ|たのむ|たのもしい|たよる~trust|request~</c>
 <c>雷~13~ライ|かみなり|いかずち|いかづち~thunder|lightning bolt~</c>
-<c>洛~9~ラク~Kyoto|the capital~</c>
+<c>洛~9~ラク~kyoto|the capital~</c>
 <c>絡~12~ラク|からむ|からまる~entwine|coil around|get caught in~</c>
 <c>落~12~ラク|おちる|おち|おとす~fall|drop|come down|village|hamlet~</c>
 <c>酪~13~ラク~dairy products|whey|broth|fruit juice~</c>
@@ -2585,7 +2585,7 @@
 <c>欄~20~ラン|てすり~column|handrail|blank|space~</c>
 <c>濫~18~ラン|みだりに|みだりがましい~excessive|overflow|spread out~</c>
 <c>藍~18~ラン|あい~indigo~</c>
-<c>蘭~19~ラン|ラ~orchid|Holland~</c>
+<c>蘭~19~ラン|ラ~orchid|holland~</c>
 <c>覧~17~ラン|みる~perusal|see~</c>
 <c>利~7~リ|きく~profit|advantage|benefit~</c>
 <c>吏~6~リ~officer|an official~</c>
@@ -2622,7 +2622,7 @@
 <c>了~2~リョウ~complete|finish~</c>
 <c>亮~9~リョウ|あきらか~clear|help~</c>
 <c>僚~14~リョウ~colleague|official|companion~</c>
-<c>両~6~リョウ|てる|ふたつ~both|old Japanese coin|counter for carriages (eg, in a train)|two~</c>
+<c>両~6~リョウ|てる|ふたつ~both|old japanese coin|counter for carriages (eg, in a train)|two~</c>
 <c>凌~10~リョウ|しのぐ~endure|keep (rain)out|stave off|tide over|defy|slight|surpass~</c>
 <c>寮~15~リョウ~dormitory|hostel|villa|tea pavillion~</c>
 <c>料~10~リョウ~fee|materials~</c>
@@ -2650,7 +2650,7 @@
 <c>輪~15~リン|わ~wheel|ring|circle|link|loop|counter for wheels and flowers~</c>
 <c>隣~16~リン|となる|となり~neighboring~</c>
 <c>鱗~24~23~リン|うろこ|こけ|こけら~scales (fish)~</c>
-<c>麟~24~23~リン~Chinese unicorn|genius|giraffe|bright|shining~</c>
+<c>麟~24~23~リン~chinese unicorn|genius|giraffe|bright|shining~</c>
 <c>瑠~14~ル|リュウ~lapis lazuli~</c>
 <c>塁~12~ルイ|ライ|スイ|とりで~bases|fort|rampart|walls|base(ball)~</c>
 <c>涙~10~ルイ|レイ|なみだ~tears|sympathy~</c>
@@ -2689,12 +2689,12 @@
 <c>連~10~9~レン|つらなる|つらねる|つれる|-づれ~take along|lead|join|connect|party|gang|clique~</c>
 <c>錬~16~レン|ねる~tempering|refine|drill|train|polish~</c>
 <c>呂~7~ロ|リョ|せぼね~spine|backbone~</c>
-<c>魯~15~ロ|おろか~foolish|Russia~</c>
+<c>魯~15~ロ|おろか~foolish|russia~</c>
 <c>櫓~19~ロ|やぐら|おおだて~oar|tower~</c>
 <c>炉~8~ロ|いろり~hearth|furnace|kiln|reactor~</c>
 <c>賂~13~ロ|まいない|まいなう~bribe~</c>
 <c>路~13~ロ|ル|-じ|みち~path|route|road|distance~</c>
-<c>露~21~ロ|ロウ|つゆ~dew|tears|expose|Russia~</c>
+<c>露~21~ロ|ロウ|つゆ~dew|tears|expose|russia~</c>
 <c>労~7~ロウ|ろうする|いたわる|いたずき|ねぎら|つかれる|ねぎらう~labor|thank for|reward for|toil|trouble~</c>
 <c>廊~12~11~ロウ~corridor|hall|tower~</c>
 <c>弄~7~ロウ|ル|いじくる|ろうする|いじる|ひねくる|たわむれる|もてあそぶ~play with|tamper|trifle with~</c>
@@ -2713,8 +2713,8 @@
 <c>肋~6~ロク|あばら~rib~</c>
 <c>録~16~ロク|しるす|とる~record~</c>
 <c>論~15~ロン~argument|discourse~</c>
-<c>倭~10~ワ|イ|やまと|したがう~Yamato|ancient Japan~</c>
-<c>和~8~ワ|オ|カ|やわらぐ|やわらげる|なごむ|なごやか~harmony|Japanese style|peace|soften|Japan~</c>
+<c>倭~10~ワ|イ|やまと|したがう~yamato|ancient japan~</c>
+<c>和~8~ワ|オ|カ|やわらぐ|やわらげる|なごむ|なごやか~harmony|japanese style|peace|soften|japan~</c>
 <c>話~13~ワ|はなす|はなし~tale|talk~</c>
 <c>歪~9~ワイ|エ|いがむ|いびつ|ひずむ|ゆがむ~warp|bend|strained|distort~</c>
 <c>賄~13~ワイ|まかなう~bribe|board|supply|finance~</c>
@@ -2734,7 +2734,7 @@
 <c>丼~5~トン|タン|ショウ|セイ|どんぶり~bowl|bowl of food~</c>
 <c>乘~10~ジョウ|のる|のせる~power|multiplication|record|counter for vehicles~</c>
 <c>亞~8~ア|つぐ~rank|follow~</c>
-<c>佛~7~ブツ|フツ|ほとけ~France~</c>
+<c>佛~7~ブツ|フツ|ほとけ~france~</c>
 <c>侑~8~ユウ|ウ|すすめる|たすける~urge to eat~</c>
 <c>來~8~ライ|タイ|くる|きたる|きたす|きたす|きたる~come|due|next|cause|become~</c>
 <c>俐~9~リ|かしこい~clever~</c>
@@ -2779,9 +2779,9 @@
 <c>奎~9~ケイ|キ~star|god of literature~</c>
 <c>奧~13~オウ|オク|おくまる|くま~heart|interior~</c>
 <c>奬~14~ショウ|ソウ|すすめる~prize|reward|give award to~</c>
-<c>姜~9~キョウ|ガ|こう~Chinese surname|ginger~</c>
+<c>姜~9~キョウ|ガ|こう~chinese surname|ginger~</c>
 <c>姚~9~ヨウ|チョウ|うつくしい~beautiful~</c>
-<c>孃~20~ジョウ|むすめ~girl|Miss|daughter~</c>
+<c>孃~20~ジョウ|むすめ~girl|miss|daughter~</c>
 <c>實~14~ジツ|シツ|み|みのる|まことに|みのり|みちる~truth|reality~</c>
 <c>寢~14~シン|ねる|ねかす|いぬ|みたまや|やめる~sleep|rest|bed chamber~</c>
 <c>將~11~ショウ|ソウ|まさに|はた|ひきいる|もって~commander|general|admiral~</c>
@@ -2817,7 +2817,7 @@
 <c>愼~13~シン|つつしむ|つつしみ~care|chastity~</c>
 <c>慄~13~リツ|ふるえる|おそれる|おののく~fear~</c>
 <c>憬~15~ケイ|あこがれる~yearn for|aspire to|admire~</c>
-<c>應~17~オウ|ヨウ|あたる|まさに|こたえる~answer|yes|OK|reply|accept~</c>
+<c>應~17~オウ|ヨウ|あたる|まさに|こたえる~answer|yes|ok|reply|accept~</c>
 <c>懷~19~カイ|エ|ふところ|なつかしい|なつかしむ|なつく|なつける|いだく|おもう~pocket|feelings|heart|yearn|miss someone|become attached to|bosom|breast~</c>
 <c>戰~16~セン|いくさ|たたかう|おののく|そよぐ~war|fighting|battle~</c>
 <c>戲~17~ギ|ゲ|たわむれる|たわむれ~play|frolic|sport~</c>
@@ -2825,7 +2825,7 @@
 <c>拔~8~バツ|ハイ|ぬく|ぬける|ぬかす|ぬかる~extract|pull out|pilfer|quote|remove|omit~</c>
 <c>拜~9~ハイ|おがむ|おろがむ~worship|adore|pray to~</c>
 <c>拂~8~ヒツ|フツ|ホツ|はらう~clear out|sweep away~</c>
-<c>拉~8~ラツ|ラ|ロウ|らっする|ひしぐ|くだく~Latin|kidnap|crush~</c>
+<c>拉~8~ラツ|ラ|ロウ|らっする|ひしぐ|くだく~latin|kidnap|crush~</c>
 <c>搜~13~ソウ|シュ|シュウ|さがす~search|seek|investigate~</c>
 <c>搖~13~ヨウ|ゆれる|ゆらぐ|ゆるぐ|ゆする|ゆさぶる|ゆすぶる|うごく~wag|swing|wave|shake|scull~</c>
 <c>攝~21~セツ|ショウ|おさめる|かねる|とる~surrogate|act in addition to~</c>
@@ -2834,7 +2834,7 @@
 <c>敍~11~ジョ|ついず|ついで~express|state|relate|narrate~</c>
 <c>旛~18~ヘン|ハン|はた~flag~</c>
 <c>昊~8~コウ|そら~sky|big~</c>
-<c>昴~9~コウ|ボウ|すばる~the Pleiades~</c>
+<c>昴~9~コウ|ボウ|すばる~the pleiades~</c>
 <c>晏~10~アン|おそい~late|quiet|sets (sun)~</c>
 <c>晄~10~コウ|あきらか~clear~</c>
 <c>晝~11~チュウ|ひる~daytime|daylight~</c>
@@ -2844,7 +2844,7 @@
 <c>曉~16~キョウ|ギョウ|あかつき|さとる~dawn|daybreak|clear|explicit~</c>
 <c>曖~17~アイ|くらい~dark|not clear~</c>
 <c>杞~7~コ|キ~river willow~</c>
-<c>檜~17~カイ|ひのき|ひ~Japanese cypress~</c>
+<c>檜~17~カイ|ひのき|ひ~japanese cypress~</c>
 <c>栞~10~カン|しおり~bookmark|guidebook~</c>
 <c>條~11~ジョウ|チョウ|デキ|えだ|すじ~article|ray of light~</c>
 <c>梛~11~ダ|ナ|なぎ~type of tall evergreen tree~</c>
@@ -2852,7 +2852,7 @@
 <c>椰~13~ヤ|やし~coconut tree~</c>
 <c>榮~14~エイ|ヨウ|さかえる|はえる|え~flourish|prosperity|honour|glory|splendour~</c>
 <c>樂~15~ガク|ラク|ゴウ|たのしい|たのしむ|このむ~music|comfort~</c>
-<c>樣~15~ヨウ|ショウ|さま~Esq|way|manner|situation|polite suffix~</c>
+<c>樣~15~ヨウ|ショウ|さま~esq|way|manner|situation|polite suffix~</c>
 <c>橙~16~トウ|だいだい~bitter orange~</c>
 <c>檄~17~ケキ|げきする|ふれぶみ~written appeal|manifesto~</c>
 <c>檢~17~ケン|しらべる~check|examine~</c>
@@ -2866,7 +2866,7 @@
 <c>洸~9~コウ~sparkling water~</c>
 <c>洵~9~ジュン|シュン|のぶ|まことに~alike|truth~</c>
 <c>洒~9~シャ|ソン|サイ|セン|セイ|すすぐ|あらう~wash|sprinkle~</c>
-<c>浙~10~セツ~name of a Chinese river~</c>
+<c>浙~10~セツ~name of a chinese river~</c>
 <c>渕~11~エン|カク|コウ|ふち|かたい|はなわ~edge~</c>
 <c>淨~11~ジョウ|セイ|きよめる|きよい~pure|clean|unspoiled~</c>
 <c>滉~13~コウ|ひろい~deep and broad~</c>
@@ -2904,14 +2904,14 @@
 <c>皓~12~コウ|しろい|ひかる~white|clear~</c>
 <c>盡~14~ジン|サン|つくす|つきる|つかす|さかづき|ことごとく~exhaust|use up|run out of|deplete|befriend|serve~</c>
 <c>盧~16~ロ~hut~</c>
-<c>眞~10~シン|ま|まこと~truth|reality|Buddhist sect~</c>
+<c>眞~10~シン|ま|まこと~truth|reality|buddhist sect~</c>
 <c>眸~11~ボウ|ム|ひとみ~pupil of the eye~</c>
 <c>瞑~15~メイ|ベン|ミョウ|ミン|メン|めいする|つぶる|つむる|くらい~sleep|dark|close eyes~</c>
 <c>碎~13~サイ|くだく|くだける~break|smash|broken|busted~</c>
 <c>礒~18~ギ|ガ|いそ|いわお~rock|beach|shore~</c>
 <c>祕~10~ヒ|ひめる|かくす~mysterious|secret|abstruse~</c>
 <c>祿~13~ロク|さいわい|ふち~fief|allowance|pension|grant|happiness~</c>
-<c>禪~17~ゼン|セン|しずか|ゆずる~Zen Buddhism|silent meditation~</c>
+<c>禪~17~ゼン|セン|しずか|ゆずる~zen buddhism|silent meditation~</c>
 <c>禮~18~レイ|ライ~social custom|manners|courtesy|rites~</c>
 <c>稟~13~リン|ヒン|こめぐら~salary in rice~</c>
 <c>稻~15~トウ|テ|いね|いな-~rice plant~</c>
@@ -2971,7 +2971,7 @@
 <c>詢~13~ジュン|シュン|はかる|まこと~consult with~</c>
 <c>諄~15~シュン|ひちくどい|くどい|くどくど|ねんごろ~tedious~</c>
 <c>諧~16~カイ|かなう|やわらぐ~harmony~</c>
-<c>謠~17~ヨウ|うたう|うた~chant (esp Noh)|folksong|ballad~</c>
+<c>謠~17~ヨウ|うたう|うた~chant (esp noh)|folksong|ballad~</c>
 <c>謳~18~オウ|ウ|うたう~extol|declare|express~</c>
 <c>讓~24~ジョウ|ゆずる~allow|permit|yield|concede~</c>
 <c>貪~11~タン|トン|むさぼる~covet|indulge in~</c>
@@ -3008,11 +3008,11 @@
 <c>魏~18~ギ|たかい~high|large~</c>
 <c>鴈~15~ガン|かり|かりがね~wild goose~</c>
 <c>鷄~21~ケイ|にわとり|とり~chicken~</c>
-<c>麒~19~キ~Chinese unicorn|genius|giraffe|bright|shining~</c>
+<c>麒~19~キ~chinese unicorn|genius|giraffe|bright|shining~</c>
 <c>黎~15~レイ|リ|くろい~dark|black|many~</c>
-<c>齊~14~セイ|サイ|そろう|ひとしい|ひとしく|あたる|はやい~alike|equal|similar|Saito~</c>
+<c>齊~14~セイ|サイ|そろう|ひとしい|ひとしく|あたる|はやい~alike|equal|similar|saito~</c>
 <c>堯~12~ギョウ|たかい~high|far~</c>
-<c>槇~14~テン|シン|まき|こずえ~twig|Chinese black pine~</c>
+<c>槇~14~テン|シン|まき|こずえ~twig|chinese black pine~</c>
 <c>遙~14~12~ヨウ|はるか~far off|distant|long ago~</c>
 <c>凜~15~リン|きびしい~cold|strict|severe~</c>
 <c>熙~15~キ|たのしむ|ひかる|ひろい|よろこぶ|かわく|あきらか|ひろめる|ひろまる~bright|sunny|prosperous|merry~</c>

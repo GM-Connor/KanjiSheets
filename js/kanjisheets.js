@@ -15,6 +15,8 @@ function textChange(input) {
 	value = input.target.value.toLowerCase();
 	console.log(value);
 	if (value.length > 1)
+		$('#search-results').collapse('show');
+		//Have spinning gif thing in initial panel
 		search(value);
 }
 

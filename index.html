@@ -21,7 +21,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading" role="tab" id="search-heading">
 									<div class="panel-title">
-										<div class="input-group" data-toggle="collapse" data-parent="#search-expand" href="#search-results" aria-expanded="true" aria-controls="search-results">
+										<div class="input-group" data-parent="#search-expand" href="#search-results">
 											<input type="text" class="form-control" onchange="textChange(event);">
 											<span class="input-group-btn">
 												<button type="button" class="btn btn-default">
@@ -31,7 +31,7 @@
 										</div>
 									</div>
 								</div>
-								<div id="search-results" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="search-heading">
+								<div id="search-results" class="panel-collapse collapse" role="tabpanel" aria-labelledby="search-heading" aria-expanded="false">
 									<div class="panel-body">
 										<div id="characters" class="row"></div>
 									</div>

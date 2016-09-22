@@ -14,10 +14,12 @@ function readXML(xml) {
 function textChange(input) {
 	value = input.target.value.toLowerCase();
 	console.log(value);
-	if (value.length > 1)
+	if (value.length > 1) {
 		$('#search-results').collapse('show');
 		//Have spinning gif thing in initial panel
+		determineHeight();
 		search(value);
+	}
 }
 
 
@@ -49,7 +51,7 @@ function output(match) {
 	var characters = document.getElementById("characters");
 	characters.innerHTML = "";
 	for (var i=0; i < match.length; i++) {
-		if (markers_used.indexOf(match[i][1]) == -1) {
+		if ((markers_used.indexOf(match[i][1]) == -1) && (match.length > 24)) {
 			markers_used.push(match[i][1]);
 			characters.innerHTML += character_format(match[i][1], true);
 		}
@@ -64,4 +66,12 @@ function character_format(character, marker) {
 		marker = "";
 	result = '<div class="col-md-3"><div class="character' + marker + '"><div class="vtable"><div class="vtable-cell">' + character + '</div></div></div></div>'
 	return result;
+}
+
+function determineHeight() {
+	var characters = document.getElementById('characters');
+	var c = characters.getBoundingClientRect().top;
+	var e = document.getElementById('extra').getBoundingClientRect().top;
+	var h = e - c;
+	characters.style.maxHeight = h.toString() + "px";
 }

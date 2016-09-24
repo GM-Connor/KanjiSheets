@@ -15,7 +15,7 @@
 		<div class="row">
 			<div class="col-md-6 sidebar">
 				<h1 class="site-title">KanjiSheets</h1>
-				<form>
+				<form onsubmit="return false;">
 					<div class="form-group">
 						<div class="panel-group" id="search-expand" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
@@ -24,7 +24,7 @@
 										<div class="input-group" data-parent="#search-expand" href="#search-results">
 											<input type="text" class="form-control" onkeyup="textChange(event);">
 											<span class="input-group-btn">
-												<button type="button" class="btn btn-default">
+												<button type="button" class="btn btn-default" onclick="buttonClick(event);">
 													<span class="glyphicon glyphicon-plus"></span>
 												</button>
 											</span>
@@ -65,7 +65,7 @@
 			</div>
 			<div class="col-md-6 filler"></div>
 			<div class="col-md-3 selected-kanji">
-				<div is="selectedkanji" class="row">
+				<div id="selectedkanji" class="row">
 					<div class="col-md-10 alert" role="alert">
 						<div class="character-selected">
 							<div class="vtable">
@@ -74,99 +74,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-10 alert">
+					<div class="col-md-10 alert new">
 						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">語</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">引</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">部</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">肉</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">赤</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">今</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">毎</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">海</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">歌</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">舞</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected">
-							<div class="vtable">
-								<div class="vtable-cell">風</div>
-								<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-10 alert">
-						<div class="character-selected new">
 							<div class="vtable">
 								<div class="vtable-cell">
-									<input type="text" placeholder="+">
+									<input type="text" placeholder="+" onfocusout="addFromNew(this.value);">
 								</div>
 							</div>
 						</div>

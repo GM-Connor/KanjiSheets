@@ -140,10 +140,10 @@ input:focus {
 .selected-kanji .character-selected .vtable:hover, .selected-kanji .character-selected .vtable:hover button {
 	border-color: #4bbaeb;
 }
-.selected-kanji .character-selected.new .vtable {
+.selected-kanji .new .character-selected .vtable {
 	border-style: dotted;
 }
-.selected-kanji .character-selected.new input {
+.selected-kanji .new .character-selected input {
 	width: 100%;
 	text-align: center;
 	background: none;

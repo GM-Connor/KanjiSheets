@@ -189,7 +189,7 @@ input:focus {
 	width: 461.717px;
 }
 
-svg {font-size: 50px;} 
+svg {font-size: 50px; border:1px solid #fff} 
 rect {fill:#fff;stroke:#000;stroke-width:2;} 
 line {stroke:#777777;stroke-width:1;} 
 svg .primary-text {font-size:45px;} 

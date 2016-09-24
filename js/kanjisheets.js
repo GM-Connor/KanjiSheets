@@ -162,3 +162,30 @@ function addFromNew(text) {
 /*
  * Selected kanji to SVG hookup
  */
+svgData = {
+	"rows": 22,
+	"columns": 15,
+	"current_row": 0,
+	"current_column": 0
+}
+function startSVG() {
+	initSVG();
+	for (var row=0; row < svgData["rows"]; row++) {
+		svgData["current_row"] = row;
+		startRow();
+	}
+}
+function initSVG() {
+	$('.svg')[0].innerHTML = "<svg></svg>";
+	svgData["svg"] = $('.svg svg')[0];
+	svgData["svg"].setAttribute("width", "100%");
+	svgData["svg"].setAttribute("height", "100%");
+	svgData["svg"].setAttribute("viewBox", "0 0 1141 1674");
+}
+function startRow() {
+	if (svgData["current_row"] == 0) {
+		
+	} 
+}
+
+startSVG();

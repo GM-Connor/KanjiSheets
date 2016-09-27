@@ -166,26 +166,51 @@ svgData = {
 	"rows": 22,
 	"columns": 15,
 	"current_row": 0,
-	"current_column": 0
+	"current_column": 0,
+	"width": "100%",
+	"height": "100%",
+	"viewBox": "0 0 1141 1674",
+	"sectorSize": 77
 }
 function startSVG() {
 	initSVG();
-	for (var row=0; row < svgData["rows"]; row++) {
-		svgData["current_row"] = row;
+	for (var row=0; row < svgData.rows; row++) {
+		svgData.current_row = row;
 		startRow();
 	}
 }
 function initSVG() {
 	$('.svg')[0].innerHTML = "<svg></svg>";
-	svgData["svg"] = $('.svg svg')[0];
-	svgData["svg"].setAttribute("width", "100%");
-	svgData["svg"].setAttribute("height", "100%");
-	svgData["svg"].setAttribute("viewBox", "0 0 1141 1674");
+	svgData.svg = $('.svg svg')[0];
+	svgData.svg.setAttribute("width", svgData.width);
+	svgData.svg.setAttribute("height", svgData.height);
+	svgData.svg.setAttribute("viewBox", svgData.viewBox);
 }
 function startRow() {
-	if (svgData["current_row"] == 0) {
-		
+	if (svgData.current_row == 0) {
+		console.log("first row");
 	} 
+	else if (svgData.current_row == (svgData.rows - 1)) {
+		console.log("last row");
+	}
+	else {
+		for (var column=0; column < svgData.columns; column++) {
+			svgData.current_column = column;
+			startSector();
+		}
+	}
+}
+function startSector() {
+	createRect();
+}
+function createRect(secX=svgData.current_column, secY=svgData.current_row) {
+	var posX = (svgData.sectorSize * secX) - secX;
+	var posY = (svgData.sectorSize * secY) - secY;
+	var format = '<rect x="' + posX + '" y="' + posY + '" width="' + svgData.sectorSize + '" height="' + svgData.sectorSize + '"/>';
+	appendSVG(format);
+}
+function appendSVG(insertion) {
+	svgData.svg.innerHTML += insertion;
 }
 
 startSVG();

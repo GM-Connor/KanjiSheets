@@ -170,7 +170,9 @@ svgData = {
 	"width": "100%",
 	"height": "100%",
 	"viewBox": "0 0 1141 1674",
-	"sectorSize": 77
+	"sectorSize": 77,
+	"headerText": "Kanji Practice Sheets",
+	"footerText": "Printed from www.KanjiSheets.com"
 }
 function startSVG() {
 	initSVG();
@@ -188,10 +190,10 @@ function initSVG() {
 }
 function startRow() {
 	if (svgData.current_row == 0) {
-		console.log("first row");
+		header();
 	} 
 	else if (svgData.current_row == (svgData.rows - 1)) {
-		console.log("last row");
+		footer();
 	}
 	else {
 		for (var column=0; column < svgData.columns; column++) {
@@ -199,6 +201,14 @@ function startRow() {
 			startSector();
 		}
 	}
+}
+function header() {
+	var format = '<text class="primary-text" text-anchor="middle" x="571" y="' + ((svgData.sectorSize * svgData.current_row) - svgData.current_row + 50) + '">' + svgData.headerText + '</text>';
+	appendSVG(format);
+}
+function footer() {
+	var format = '<text class="secondary-text" text-anchor="middle" x="571" y="' + ((svgData.sectorSize * svgData.current_row) - svgData.current_row + 29) + '">' + svgData.footerText + '</text>';
+	appendSVG(format);
 }
 function startSector() {
 	createRect();

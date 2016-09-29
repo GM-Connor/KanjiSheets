@@ -172,9 +172,12 @@ svgData = {
 	"viewBox": "0 0 1141 1674",
 	"sectorSize": 77,
 	"headerText": "Kanji Practice Sheets",
-	"footerText": "Printed from www.KanjiSheets.com"
+	"footerText": "Printed from www.KanjiSheets.com",
+	"maxKanji": 10,
+	"rowPerKanji": 2
 }
 function startSVG() {
+	getSelectedKanji();
 	initSVG();
 	for (var row=0; row < svgData.rows; row++) {
 		svgData.current_row = row;
@@ -221,6 +224,26 @@ function createRect(secX=svgData.current_column, secY=svgData.current_row) {
 }
 function appendSVG(insertion) {
 	svgData.svg.innerHTML += insertion;
+}
+function getSelectedKanji() {
+	var selectedKanji = [];
+	var kanji = $('.character-selected .vtable-cell');
+	for (var i=0; i < kanji.length; i++) {
+		if (kanji[i].innerText.length == 1) {
+			selectedKanji.push(kanji[i].innerText);
+		}
+	}
+	var formatedKanji = [];
+	var remaining = svgData.maxKanji;
+	for (var i=0; i < selectedKanji.length; i++) {
+		var allocated = Math.ceil(remaining/(selectedKanji.length-i));
+		for (var j=0; j < allocated; j++) {
+			formatedKanji.push(selectedKanji[i]);
+		}
+		remaining -= allocated;
+	}
+	svgData.selectedKanji = selectedKanji;
+	svgData.formatedKanji = formatedKanji;
 }
 
 startSVG();

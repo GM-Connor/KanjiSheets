@@ -176,8 +176,8 @@ svgData = {
 	"maxKanji": 10,
 	"rowPerKanji": 2,
 	"rowFormat": [
-		["form1"],
-		["form2"]
+		"KTTTTTTTGGGGGGG",
+		"TGGGGGGGBBBBBBB"
 	],
 	"entriesAdded": 0
 }
@@ -209,8 +209,8 @@ function startRow() {
 		var currentFormatIndex = (svgData.current_row - 1) % svgData.rowPerKanji;
 		var rowFormat = svgData.rowFormat[currentFormatIndex];
 
-		console.log(currentKanji);
-		console.log(rowFormat);
+		// console.log(currentKanji);
+		// console.log(rowFormat);
 
 		if (currentFormatIndex == (svgData.rowPerKanji - 1)) {
 			svgData.entriesAdded += 1;
@@ -218,7 +218,7 @@ function startRow() {
 
 		for (var column=0; column < svgData.columns; column++) {
 			svgData.current_column = column;
-			startSector(currentKanji, rowFormat);
+			startSector(currentKanji, rowFormat[column]);
 		}
 	}
 }
@@ -232,12 +232,28 @@ function footer() {
 }
 function startSector(kanji, format) {
 	createRect();
+	switch(format) {
+		case "G":
+			createGrid();
+			break;
+	}
 }
 function createRect(secX=svgData.current_column, secY=svgData.current_row) {
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
 	var format = '<rect x="' + posX + '" y="' + posY + '" width="' + svgData.sectorSize + '" height="' + svgData.sectorSize + '"/>';
 	appendSVG(format);
+}
+function createGrid(secX=svgData.current_column, secY=svgData.current_row) {
+	var posX = (svgData.sectorSize * secX) - secX;
+	var posY = (svgData.sectorSize * secY) - secY;
+	var l1x = Math.floor(((posX*2)+svgData.sectorSize)/2);
+	var l1y2 = posY + svgData.sectorSize;
+	var l2y = Math.floor(((posY*2)+svgData.sectorSize)/2);
+	var l2x2 = posX + svgData.sectorSize;
+	var line1 = '<line x1="' + l1x + '" y1="' + posY + '" x2="' + l1x + '" y2="' + l1y2 + '"/>';
+	var line2 = '<line x1="' + posX + '" y1="' + l2y + '" x2="' + l2x2 + '" y2="' + l2y + '"/>';
+	appendSVG(line1 + line2);
 }
 function appendSVG(insertion) {
 	svgData.svg.innerHTML += insertion;

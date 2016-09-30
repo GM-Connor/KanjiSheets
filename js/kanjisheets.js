@@ -174,9 +174,15 @@ svgData = {
 	"headerText": "Kanji Practice Sheets",
 	"footerText": "Printed from www.KanjiSheets.com",
 	"maxKanji": 10,
-	"rowPerKanji": 2
+	"rowPerKanji": 2,
+	"rowFormat": [
+		["form1"],
+		["form2"]
+	],
+	"entriesAdded": 0
 }
 function startSVG() {
+	svgData.kanjiRows = svgData.rows - 2;
 	getSelectedKanji();
 	initSVG();
 	for (var row=0; row < svgData.rows; row++) {
@@ -199,9 +205,20 @@ function startRow() {
 		footer();
 	}
 	else {
+		var currentKanji = svgData.formatedKanji[svgData.entriesAdded];
+		var currentFormatIndex = (svgData.current_row - 1) % svgData.rowPerKanji;
+		var rowFormat = svgData.rowFormat[currentFormatIndex];
+
+		console.log(currentKanji);
+		console.log(rowFormat);
+
+		if (currentFormatIndex == (svgData.rowPerKanji - 1)) {
+			svgData.entriesAdded += 1;
+		}
+
 		for (var column=0; column < svgData.columns; column++) {
 			svgData.current_column = column;
-			startSector();
+			startSector(currentKanji, rowFormat);
 		}
 	}
 }
@@ -213,7 +230,7 @@ function footer() {
 	var format = '<text class="secondary-text" text-anchor="middle" x="571" y="' + ((svgData.sectorSize * svgData.current_row) - svgData.current_row + 29) + '">' + svgData.footerText + '</text>';
 	appendSVG(format);
 }
-function startSector() {
+function startSector(kanji, format) {
 	createRect();
 }
 function createRect(secX=svgData.current_column, secY=svgData.current_row) {

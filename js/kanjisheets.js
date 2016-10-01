@@ -129,6 +129,8 @@ function kanjiAdd(kanji) {
 			grid.innerHTML += gridFormat("",true);
 		}
 	}
+	//Starts the SVG generation
+	startSVG();
 }
 function gridFormat(kanji, isNew) {
 	/*Triggered by kanjiAdd()*/
@@ -179,16 +181,21 @@ svgData = {
 		"KTTTTTTTGGGGGGG",
 		"TGGGGGGGBBBBBBB"
 	],
-	"entriesAdded": 0
+	"kanjiPaths": {},
+	"svgContent": ""
 }
 function startSVG() {
+	console.log("triggered");
+	svgData.entriesAdded = 0;
 	svgData.kanjiRows = svgData.rows - 2;
 	getSelectedKanji();
+	getKanjiTracePaths();
 	initSVG();
 	for (var row=0; row < svgData.rows; row++) {
 		svgData.current_row = row;
 		startRow();
 	}
+	svgFlush();
 }
 function initSVG() {
 	$('.svg')[0].innerHTML = "<svg></svg>";
@@ -231,10 +238,27 @@ function footer() {
 	appendSVG(format);
 }
 function startSector(kanji, format) {
-	createRect();
 	switch(format) {
-		case "G":
+		case "K":
+			createRect();
 			createGrid();
+			if (kanji) {
+				createKanji(kanji);
+			}
+			break;
+		case "T":
+			createRect();
+			createGrid();
+			if (kanji) {
+				createTrace(kanji);
+			}
+			break;
+		case "G":
+			createRect();
+			createGrid();
+			break;
+		case "B":
+			createRect();
 			break;
 	}
 }
@@ -253,10 +277,23 @@ function createGrid(secX=svgData.current_column, secY=svgData.current_row) {
 	var l2x2 = posX + svgData.sectorSize;
 	var line1 = '<line x1="' + l1x + '" y1="' + posY + '" x2="' + l1x + '" y2="' + l1y2 + '"/>';
 	var line2 = '<line x1="' + posX + '" y1="' + l2y + '" x2="' + l2x2 + '" y2="' + l2y + '"/>';
+
 	appendSVG(line1 + line2);
 }
+function createKanji(kanji, secX=svgData.current_column, secY=svgData.current_row) {
+	var posX = (svgData.sectorSize * secX) - secX;
+	var posY = (svgData.sectorSize * secY) - secY;
+	var format = '<text class="kanji　read" x="' + (posX+13) + '" y="' + (posY+56) + '">' + kanji + '</text>';
+	appendSVG(format);
+}
+function createTrace(kanji, secX=svgData.current_column, secY=svgData.current_row) {
+	var posX = (svgData.sectorSize * secX) - secX;
+	var posY = (svgData.sectorSize * secY) - secY;
+	var format = '<svg y="' + (posY + 6) + '" x="' + (posX + 4) + '" width="66" height="66" viewBox="0 0 327 327"><g transform="scale(3.0,3.0)">' + svgData.kanjiPaths[kanji] + '</g></svg>';
+	appendSVG(format);
+}
 function appendSVG(insertion) {
-	svgData.svg.innerHTML += insertion;
+	svgData.svgContent += insertion;
 }
 function getSelectedKanji() {
 	var selectedKanji = [];
@@ -278,5 +315,24 @@ function getSelectedKanji() {
 	svgData.selectedKanji = selectedKanji;
 	svgData.formatedKanji = formatedKanji;
 }
-
+function getKanjiTracePaths() {
+	for (var i=0; i < svgData.selectedKanji.length; i++) {
+		var kanji = svgData.selectedKanji[i];
+		if (!(svgData.kanjiPaths.hasOwnProperty(kanji))) {
+			$.ajax({
+				url: "../kanji_paths/" + kanji + ".svg",
+				async: false,
+				complete: function(data) {
+					if (data.status == 200) {
+						svgData.kanjiPaths[kanji] = data.responseText;
+					}
+				}
+			});
+		}
+	}
+}
+function svgFlush() {
+	svgData.svg.innerHTML = svgData.svgContent;
+	svgData.svgContent = "";
+}
 startSVG();

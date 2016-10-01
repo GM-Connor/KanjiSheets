@@ -143,6 +143,8 @@ function gridFormat(kanji, isNew) {
 	}
 }
 $('#selectedkanji').keyup(function(event){
+	/*Triggered by ENTER keyup*/
+	//Adds kanji to grid (first character of input field)
 	if (event.keyCode == 13) {
 		addFromNew($('#selectedkanji .new input')[0].value);
 	}

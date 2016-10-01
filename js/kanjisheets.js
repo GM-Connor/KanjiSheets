@@ -349,4 +349,7 @@ function adjustSvgWidth() {
 	console.log(height);
 	console.log(width);
 }
+$( window ).resize(function() {
+	adjustSvgWidth();
+});
 adjustSvgWidth();

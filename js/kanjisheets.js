@@ -336,3 +336,17 @@ function svgFlush() {
 	svgData.svgContent = "";
 }
 startSVG();
+
+
+/*
+ * Other
+ */
+function adjustSvgWidth() {
+	var svgPanel = $('.panel.svg');
+	var height = svgPanel.height();
+	var width = (height * 1141) / 1674;
+	svgPanel.width(width * 1.1);
+	console.log(height);
+	console.log(width);
+}
+adjustSvgWidth();

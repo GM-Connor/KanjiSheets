@@ -139,7 +139,7 @@ function gridFormat(kanji, isNew) {
 		return '<div class="col-md-10 alert new"><div class="character-selected"><div class="vtable"><div class="vtable-cell"><input type="text" placeholder="+" onfocusout="addFromNew(this.value);"></div></div></div></div>';
 	}
 	else {
-		return '<div class="col-md-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div></div>';
+		return '<div class="col-md-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" onclick="dismissAndUpdate(this);"><span aria-hidden="true">&times;</span></button></div></div></div>';
 	}
 }
 $('#selectedkanji').keyup(function(event){
@@ -189,6 +189,7 @@ svgData = {
 function startSVG() {
 	console.log("triggered");
 	svgData.entriesAdded = 0;
+
 	svgData.kanjiRows = svgData.rows - 2;
 	getSelectedKanji();
 	getKanjiTracePaths();
@@ -355,3 +356,9 @@ $( window ).resize(function() {
 	adjustSvgWidth();
 });
 adjustSvgWidth();
+//Triggering before the close
+
+function dismissAndUpdate(element) {
+	$(element).alert('close');
+	startSVG();
+}

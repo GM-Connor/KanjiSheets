@@ -362,3 +362,10 @@ function dismissAndUpdate(element) {
 	$(element).alert('close');
 	startSVG();
 }
+
+$('#search-results').on("click", ".character", function() {
+	var kanji = $(this)[0].innerText;
+	kanjiAdd(kanji);
+	$('#search').focus();
+	$('#search').select();
+});

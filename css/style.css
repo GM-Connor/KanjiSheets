@@ -210,3 +210,27 @@ g {
     overflow: hidden;
   }
 }
+
+
+@media (max-width: 910px) {
+	body {
+		width:910px;
+	}
+	.sidebar, .filler {
+		width:265px;
+	}
+	.selected-kanji {
+		width:189px;
+	}
+	.main {
+		width:455px;
+		left:454px;
+	}
+}
+
+@media (max-width: 1345px) {
+	#search-results .row > div {
+	    width: 16.66667%;
+	    padding-bottom: 16.66667%;
+	}
+}

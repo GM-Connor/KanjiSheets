@@ -90,7 +90,7 @@ function character_format(character, marker) {
 	else
 		marker = "";
 	//HTML format for a single result. Marker gets "marker" css class
-	result = '<div class="col-md-3"><div class="character' + marker + '"><div class="vtable"><div class="vtable-cell">' + character + '</div></div></div></div>'
+	result = '<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><div class="character' + marker + '"><div class="vtable"><div class="vtable-cell">' + character + '</div></div></div></div>'
 	return result;
 }
 
@@ -136,10 +136,10 @@ function gridFormat(kanji, isNew) {
 	/*Triggered by kanjiAdd()*/
 	//Returns HTML for entry based on if a kanji or "new" block
 	if (isNew) {
-		return '<div class="col-md-10 alert new"><div class="character-selected"><div class="vtable"><div class="vtable-cell"><input type="text" placeholder="+" onfocusout="addFromNew(this.value);"></div></div></div></div>';
+		return '<div class="col-xs-10 col-sm-10 alert new"><div class="character-selected"><div class="vtable"><div class="vtable-cell"><input type="text" placeholder="+" onfocusout="addFromNew(this.value);"></div></div></div></div>';
 	}
 	else {
-		return '<div class="col-md-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" onclick="dismissAndUpdate(this);"><span aria-hidden="true">&times;</span></button></div></div></div>';
+		return '<div class="col-xs-10 col-sm-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" onclick="dismissAndUpdate(this);"><span aria-hidden="true">&times;</span></button></div></div></div>';
 	}
 }
 $('#selectedkanji').keyup(function(event){

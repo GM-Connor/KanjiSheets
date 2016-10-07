@@ -204,10 +204,17 @@ g {
 
 @media print {
   * { margin: 0 !important; padding: 0 !important; }
-  html, body {
+  html, body, div{
     /*changing width to 100% causes huge overflow and wrap*/
-    height:100%; 
-    overflow: hidden;
+    height:100% !important; 
+    overflow: hidden !important;
+    width:100% !important;
+  }
+  .main {
+  	position:static;
+  }
+  .sidebar, .filler, .selected-kanji {
+  	display:none;
   }
 }
 

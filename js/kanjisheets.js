@@ -187,7 +187,6 @@ svgData = {
 	"svgContent": ""
 }
 function startSVG() {
-	console.log("triggered");
 	svgData.entriesAdded = 0;
 
 	svgData.kanjiRows = svgData.rows - 2;
@@ -218,9 +217,6 @@ function startRow() {
 		var currentKanji = svgData.formatedKanji[svgData.entriesAdded];
 		var currentFormatIndex = (svgData.current_row - 1) % svgData.rowPerKanji;
 		var rowFormat = svgData.rowFormat[currentFormatIndex];
-
-		// console.log(currentKanji);
-		// console.log(rowFormat);
 
 		if (currentFormatIndex == (svgData.rowPerKanji - 1)) {
 			svgData.entriesAdded += 1;
@@ -349,8 +345,6 @@ function adjustSvgWidth() {
 	var height = svgPanel.height();
 	var width = (height * 1141) / 1674;
 	svgPanel.width(width * 1.1);
-	console.log(height);
-	console.log(width);
 }
 $( window ).resize(function() {
 	adjustSvgWidth();

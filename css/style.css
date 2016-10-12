@@ -164,6 +164,23 @@ input:focus {
 .selected-kanji button:hover {
 	opacity:1;
 }
+.shadow {
+	position:absolute;
+	width:100%;
+	bottom:0;
+	left:15px;
+}
+.shadow .character-selected .vtable {
+	cursor: pointer;
+}
+.shadow .vtable-cell {
+	font-size:14px;
+	font-weight:600;
+	color:#eb4c4c;
+}
+.shadow .selected-kanji .character-selected .vtable:hover {
+	border-color: #eb4c4c;
+}
 
 /*
  * MAIN
@@ -213,7 +230,7 @@ g {
   .main {
   	position:static;
   }
-  .sidebar, .filler, .selected-kanji {
+  .sidebar, .filler, .selected-kanji, .shadow {
   	display:none;
   }
 }
@@ -223,7 +240,7 @@ g {
 	body {
 		width:910px;
 	}
-	.sidebar, .filler {
+	.sidebar, .filler, .shadow-sidebar {
 		width:265px;
 	}
 	.selected-kanji {
@@ -233,6 +250,7 @@ g {
 		width:455px;
 		left:454px;
 	}
+
 }
 
 @media (max-width: 1345px) {

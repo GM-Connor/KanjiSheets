@@ -369,3 +369,8 @@ $('#search-results').on("click", ".character", function() {
 	$('#search').focus();
 	$('#search').select();
 });
+
+$('.shadow .clear').click(function() {
+	document.getElementById("selectedkanji").innerHTML = gridFormat("",true);
+	startSVG();
+});

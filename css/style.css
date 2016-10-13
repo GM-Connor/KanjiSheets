@@ -13,6 +13,7 @@ input:focus {
 	background: #2e404e;
 	height: 100%;
 	position: fixed;
+	z-index: 1;
 }
 .site-title {
 	color:#fff;

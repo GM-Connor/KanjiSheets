@@ -85,7 +85,7 @@ input:focus {
 .sidebar .extra .about {
 	border-color: #23313c;
 	background: #293946;
-	color:#ccc;
+	color:#999;
 }
 .sidebar .extra .icons {
 	background:none;
@@ -101,11 +101,13 @@ input:focus {
 }
 .sidebar .extra .links {
 	text-align: right;
+	color: #999;
+	cursor:pointer;
 }
-.sidebar .extra .links a {
-	color:#999;
+.sidebar .extra .links span:hover {
+	text-decoration: underline;
+	color:#aaa;
 }
-
 /*
  * Selected Kanji
  */
@@ -199,6 +201,16 @@ input:focus {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+
+#about {
+	text-align: left;
+}
+#about .modal-title {
+	text-align: center;
+}
+#about .data-source p, #about .author a {
+	padding-left: 15px;
+}
 
 
 

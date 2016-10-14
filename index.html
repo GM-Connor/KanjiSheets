@@ -58,7 +58,7 @@
 					<div class="row credits">
 						<div class="col-xs-18 col-sm-18 copyright">© 2016 KanjiSheets</div>
 						<div class="col-xs-6 col-sm-6 links">
-							<a href="about.html">About</a>
+							<span data-toggle="modal" data-target="#about">About</span>
 						</div>
 					</div>
 				</div>
@@ -95,9 +95,44 @@
 				</div>
 			</div>
 		</div>
+		<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="aboutModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">About</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-18">
+								<p>KanjiSheets&copy; is a powerful tracing sheet creation tool. It lets you build custom tracing sheets quickly and easily. Just search by kanji definitions and click away at the results to add the kanji. Or you can type the kanji directly into the selection grid. Once you've designed your custom practice sheet, all you have to do is print (CTRL+P). Or <a href="//labnol.org/software/save-web-page-as-pdf/21153/" target="_blank">save as PDF</a> if you want a digital copy!</p>
+								<h4>Data sources</h4>
+								<div class="data-source">
+									<a href="//nihongo.monash.edu/kanjidic2" target="_blank">KANJIDIC2</a>
+									<p>KANJIDIC2 is a database of kanji that includes readings, meanings and much more information such as stroke counts and lookup numbers for various kanji books.</p>
+								</div>
+								<div class="data-source">
+									<a href="//kanjivg.tagaini.net" target="_blank">KanjiVG</a>
+									<p>Stroke order data for kanji come from the excellent KanjiVG project, by Ulrich Apel and several contributers.</p>
+								</div>
+								<p>Special thanks to <a href="//jisho.org" target="_blank">Jisho</a> for inspiration in many ways :)</p>
+							</div>
+							<div class="col-xs-6 author">
+								<h4>Author</h4>
+								<p>Connor Gray</p>
+								<a href="//github.com/GM-Connor/" target="_blank">Github</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/kanjisheets.js"></script>
+<script>$('#about').modal('show');</script>
 </body>
 </html>

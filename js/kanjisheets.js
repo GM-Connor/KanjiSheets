@@ -45,7 +45,7 @@ function search(text) {
 	var match = [];
 	//Loops through xmlDoc and pushes to match each entry than contains the input text. Entry is the innerHTML exploded by the ~ delimiter.
 	for (var i=0; i < xmlDoc.length; i++) {
-		var entry = xmlDoc[i].innerHTML;
+		var entry = xmlDoc[i].childNodes[0].nodeValue;
 		var entry_length = entry.length;
 		entry = entry.replace(text,"");
 		var reduction = entry_length - entry.length;

@@ -261,13 +261,17 @@ function startSector(kanji, format) {
 			break;
 	}
 }
-function createRect(secX=svgData.current_column, secY=svgData.current_row) {
+function createRect() {
+	var secX = svgData.current_column;
+	var secY = svgData.current_row
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
 	var format = '<rect x="' + posX + '" y="' + posY + '" width="' + svgData.sectorSize + '" height="' + svgData.sectorSize + '"/>';
 	appendSVG(format);
 }
-function createGrid(secX=svgData.current_column, secY=svgData.current_row) {
+function createGrid() {
+	var secX = svgData.current_column;
+	var secY = svgData.current_row;
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
 	var l1x = Math.floor(((posX*2)+svgData.sectorSize)/2);
@@ -279,13 +283,17 @@ function createGrid(secX=svgData.current_column, secY=svgData.current_row) {
 
 	appendSVG(line1 + line2);
 }
-function createKanji(kanji, secX=svgData.current_column, secY=svgData.current_row) {
+function createKanji(kanji) {
+	var secX = svgData.current_column;
+	var secY = svgData.current_row;
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
 	var format = '<text class="kanji　read" x="' + (posX+13) + '" y="' + (posY+56) + '">' + kanji + '</text>';
 	appendSVG(format);
 }
-function createTrace(kanji, secX=svgData.current_column, secY=svgData.current_row) {
+function createTrace(kanji) {
+	var secX = svgData.current_column;
+	var secY = svgData.current_row;
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
 	var format = '<svg y="' + (posY + 6) + '" x="' + (posX + 4) + '" width="66" height="66" viewBox="0 0 327 327"><g transform="scale(3.0,3.0)">' + svgData.kanjiPaths[kanji] + '</g></svg>';

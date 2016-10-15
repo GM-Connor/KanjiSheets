@@ -139,7 +139,7 @@ function gridFormat(kanji, isNew) {
 		return '<div class="col-xs-10 col-sm-10 alert new"><div class="character-selected"><div class="vtable"><div class="vtable-cell"><input type="text" placeholder="+" onfocusout="addFromNew(this.value);"></div></div></div></div>';
 	}
 	else {
-		return '<div class="col-xs-10 col-sm-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" onclick="dismissAndUpdate(this);"><span aria-hidden="true">&times;</span></button></div></div></div>';
+		return '<div class="col-xs-10 col-sm-10 alert"><div class="character-selected"><div class="vtable"><div class="vtable-cell">' + kanji + '</div><button type="button" class="close" onclick="dismissAndUpdate(this);"><span aria-hidden="true">×</span></button></div></div></div>';
 	}
 }
 $('#selectedkanji').keyup(function(event){
@@ -209,7 +209,7 @@ function initSVG() {
 function startRow() {
 	if (svgData.current_row == 0) {
 		header();
-	} 
+	}
 	else if (svgData.current_row == (svgData.rows - 1)) {
 		footer();
 	}

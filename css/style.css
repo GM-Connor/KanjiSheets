@@ -1,10 +1,10 @@
 body {
 	background: #ebebeb;
-	font-family: "Helvetica Neue", Helvetica, Arial, "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'HiraKakuPro-W3', 'Hiragino Kaku Gothic Pro W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, '游ゴシック', YuGothic, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
 	height: 100%;
 }
 input:focus {
-	outline:none;
+	outline: none;
 }
 /*
  * SIDEBAR (left)
@@ -16,129 +16,128 @@ input:focus {
 	z-index: 1;
 }
 .site-title {
-	color:#fff;
+	color: #fff;
 }
 #search-heading {
-	padding:8px;
+	padding: 8px;
 }
 #search-results .panel-body {
-	padding:0 22px 8px;
-	border-top:none;
 	background: #f5f5f5;
+	border-top: none;
+	padding: 0 22px 8px;
 }
 #characters {
 	overflow-y: scroll;
 }
 #search-results .row > div {
-	position: relative;
 	padding-bottom: 12.5%;
+	position: relative;
 	overflow: hidden;
 }
 #search-results .character {
-	position: absolute;
-	left:0;
-	height:100%;
-	width:100%;
-	padding:1px;
-	font-size:22px;
-	cursor: pointer;
 	color: #4d7fb3;
+	cursor: pointer;
+	font-size: 22px;
+	height: 100%;
+	left: 0;
+	padding: 1px;
+	position: absolute;
+	width: 100%;
 }
 #search-results .character:hover {
 	color: #222;
 }
 #search-results .character .vtable {
-	background:#fff;
-	border:1px solid #ddd;
+	background: #fff;
+	border: 1px solid #ddd;
 	border-radius: 4px;
 }
 .vtable {
+	display: table;
+	height: 100%;
 	position: relative;
-	display:table;
-	height:100%;
-	width:100%;
+	width: 100%;
 }
 .vtable-cell {
 	display: table-cell;
-	vertical-align: middle;
 	height: 100%;
+	vertical-align: middle;
 	width: 100%;
 }
 /*Stroke marker characters*/
-#search-results .character.marker, #search-results .character.marker:hover {
-	color:#555;
+#search-results .marker, #search-results .marker:hover {
+	color: #555;
 	cursor: default;
 	font-weight: 600;
 }
-#search-results .character.marker .vtable {
+#search-results .marker .vtable {
 	background: none;
-	border:none;
+	border: none;
 }
 /*Extra (social media, etc)*/
 .sidebar .extra {
+	bottom: 0;
+	left: 0;
+	padding: 15px 30px;
 	position: absolute;
-	width:100%;
-	left:0;
-	bottom:0;
-	padding:15px 30px;
+	width: 100%;
 }
 .sidebar .extra .about {
-	border-color: #23313c;
 	background: #293946;
-	color:#999;
+	border-color: #23313c;
+	color: #999;
 }
 .sidebar .extra .icons {
-	background:none;
-	border:none;
+	background: none;
+	border: none;
 	box-shadow: none;
 }
 .sidebar .extra .icons img {
-	cursor:pointer;
+	cursor: pointer;
 }
 .sidebar .extra .copyright {
-	text-align: left;
 	color: #999;
+	text-align: left;
 }
 .sidebar .extra .links {
-	text-align: right;
 	color: #999;
-	cursor:pointer;
+	cursor: pointer;
+	text-align: right;
 }
 .sidebar .extra .links span:hover {
+	color: #aaa;
 	text-decoration: underline;
-	color:#aaa;
 }
 /*
  * Selected Kanji
  */
 .selected-kanji {
-	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-top: 10px;
 }
 .selected-kanji .row {
 	padding-left: 4px;
 }
 .selected-kanji .row > div {
-	position:relative;
-	padding: 0;
-	padding-bottom: 41.66666667%;
-    margin-bottom: 0;
-    border: none;
-    border-radius: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0 0 41.66666667%;
+  position: relative;
 }
 .selected-kanji .character-selected {
-	position: absolute;
+	font-size: 25px;
 	height: 100%;
-	width: 100%;
+	padding: 4px;
+	position: absolute;
 	left: 0;
-	padding:4px;
-	font-size:25px;
+	width: 100%;
 }
 .selected-kanji .character-selected .vtable {
-	border:5px solid #ccc;
+	background: #f2f2f2;
+	border: 5px solid #ccc;
 	border-radius: 4px;
 	cursor: default;
-	background: #f2f2f2;
 }
 .selected-kanji .character-selected .vtable:hover, .selected-kanji .character-selected .vtable:hover button {
 	border-color: #4bbaeb;
@@ -147,39 +146,39 @@ input:focus {
 	border-style: dotted;
 }
 .selected-kanji .new .character-selected input {
-	width: 100%;
-	text-align: center;
 	background: none;
-	border:none;
+	border: none;
+	text-align: center;
+	width: 100%;
 }
 .selected-kanji button {
-	font-size:14px;
-	position: absolute;
+	background: #f2f2f2;
+	border: 3px solid #ccc;
+	border-radius: 100px;
 	bottom: -10px;
-	right: -10px;
-	background:#f2f2f2;
+	color: #ccc;
+	font-size: 14px;
 	opacity: 1;
-	color:#ccc;
-	width:20px;
-	border:3px solid #ccc;
-	border-radius: 100px
+	position: absolute;
+	right: -10px;
+	width: 20px;	
 }
 .selected-kanji button:hover {
-	opacity:1;
+	opacity: 1;
 }
 .shadow {
-	position:absolute;
-	width:100%;
-	bottom:0;
-	left:15px;
+	bottom: 0;
+	left: 15px;
+	position: absolute;
+	width: 100%;
 }
 .shadow .character-selected .vtable {
 	cursor: pointer;
 }
 .shadow .vtable-cell {
-	font-size:14px;
-	font-weight:600;
-	color:#eb4c4c;
+	color: #eb4c4c;
+	font-size: 14px;
+	font-weight: 600;
 }
 .shadow .selected-kanji .character-selected .vtable:hover {
 	border-color: #eb4c4c;
@@ -189,16 +188,16 @@ input:focus {
  * MAIN
  */
 .main {
-	padding:15px;
-	height:100%;
-	position:fixed;
+	height: 100%;
+	padding: 15px;
+	position: fixed;
 	right: 0;
 }
 .main .panel {
 	border-radius: 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	height: 100%;
 	padding: 2%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -219,56 +218,73 @@ input:focus {
 	width: 461.717px;
 }
 
-svg {font-size: 50px; border:1px solid #fff} 
-rect {fill:#fff;stroke:#000;stroke-width:2;} 
-line {stroke:#777777;stroke-width:1;} 
-svg .primary-text {font-size:45px;} 
-svg .secondary-text {font-size:16px;} 
+svg {
+	border: 1px solid #fff;
+	font-size: 50px;
+}
+rect {
+	fill: #fff;
+	stroke: #000;
+	stroke-width: 2;
+}
+line {
+	stroke: #777;
+	stroke-width: 1;
+}
+svg .primary-text {
+	font-size: 45px;
+}
+svg .secondary-text {
+	font-size: 16px;
+}
 g {
-	fill:none;
-	stroke:#979797;
-	stroke-width:6;
-	stroke-linecap:round;
-	stroke-linejoin:round;
+	fill: none;
+	stroke: #979797;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 6;
 }
 
 @media print {
-  * { margin: 0 !important; padding: 0 !important; }
-  html, body, div{
+  * {
+  	margin: 0 !important;
+  	padding: 0 !important;
+  }
+  html, body, div {
     /*changing width to 100% causes huge overflow and wrap*/
-    height:100% !important; 
+    height: 100% !important;
     overflow: hidden !important;
-    width:100% !important;
+    width: 100% !important;
   }
   .main {
-  	position:static;
+  	position: static;
   }
   .sidebar, .filler, .selected-kanji, .shadow {
-  	display:none;
+  	display: none;
   }
 }
 
 
 @media (max-width: 910px) {
 	body {
-		width:910px;
+		width: 910px;
 	}
 	.sidebar, .filler, .shadow-sidebar {
-		width:265px;
+		width: 265px;
 	}
 	.selected-kanji {
-		width:189px;
+		width: 189px;
 	}
 	.main {
-		width:455px;
-		left:454px;
+		left: 454px;
+		width: 455px;
 	}
 
 }
 
 @media (max-width: 1345px) {
 	#search-results .row > div {
-	    width: 16.66667%;
-	    padding-bottom: 16.66667%;
+		padding-bottom: 16.66667%;
+    width: 16.66667%;
 	}
 }

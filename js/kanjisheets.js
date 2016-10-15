@@ -352,10 +352,26 @@ function adjustSvgWidth() {
 	var width = (height * 1141) / 1674;
 	svgPanel.width(width * 1.1);
 }
+
+function adjustAd() {
+	var svgPanel = $('.svg')[0];
+	var ad = $('.ad')[0];
+	var rightBound = svgPanel.getBoundingClientRect().right + 5;
+	var leftBound = ad.getBoundingClientRect().left;
+	if (leftBound < rightBound) {
+		ad.setAttribute("style","visibility:hidden;opacity:0;");
+	}
+	else {
+		ad.setAttribute("style","visibility:show;opacity:1;");
+	}
+}
+
 $( window ).resize(function() {
 	adjustSvgWidth();
+	adjustAd();
 });
 adjustSvgWidth();
+adjustAd();
 //Triggering before the close
 
 function dismissAndUpdate(element) {

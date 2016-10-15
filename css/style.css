@@ -192,6 +192,16 @@ input:focus {
 	border-color: #4c81eb;
 }
 
+.ad {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 315px;
+}
+
 /*
  * MAIN
  */

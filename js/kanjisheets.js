@@ -200,10 +200,9 @@ function startSVG() {
 	svgFlush();
 }
 function initSVG() {
-	svgData.svg = $('.svg svg')[0];
-	svgData.svg.setAttribute("width", svgData.width);
-	svgData.svg.setAttribute("height", svgData.height);
-	svgData.svg.setAttribute("viewBox", svgData.viewBox);
+	svgData.svg = $('.svg')[0];
+	svgData.prefix = '<svg width="' + svgData.width + '" height="' + svgData.height + '" viewBox="' + svgData.viewBox + '">';
+	svgData.suffix = '</svg>';
 }
 function startRow() {
 	if (svgData.current_row == 0) {
@@ -338,7 +337,7 @@ function getKanjiTracePaths() {
 	}
 }
 function svgFlush() {
-	svgData.svg.innerHTML = svgData.svgContent;
+	svgData.svg.innerHTML = svgData.prefix + svgData.svgContent + svgData.suffix;
 	svgData.svgContent = "";
 }
 startSVG();

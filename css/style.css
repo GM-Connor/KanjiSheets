@@ -176,12 +176,20 @@ input:focus {
 	cursor: pointer;
 }
 .shadow .vtable-cell {
-	color: #eb4c4c;
 	font-size: 14px;
 	font-weight: 600;
 }
-.shadow .selected-kanji .character-selected .vtable:hover {
+.shadow .clear .vtable-cell {
+	color: #eb4c4c;
+}
+.shadow .print .vtable-cell {
+	color: #4c81eb;
+}
+.shadow .selected-kanji .character-selected .clear:hover {
 	border-color: #eb4c4c;
+}
+.shadow .selected-kanji .character-selected .print:hover {
+	border-color: #4c81eb;
 }
 
 /*

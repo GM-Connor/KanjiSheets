@@ -353,6 +353,24 @@ function adjustSvgWidth() {
 	svgPanel.width(width * 1.1);
 }
 
+function adjustSvgPos() {
+	var selectedKanji = $('.selected-kanji')[0];
+	var main = $('.main')[0];
+	var rightBound = selectedKanji.getBoundingClientRect().right;
+	console.log(rightBound);
+	var leftBound = main.getBoundingClientRect().left;
+	var diff = leftBound-rightBound;
+	var space = 0;
+	if (rightBound > 500) {
+		space = 30;
+	}
+	else if (rightBound > 600) {
+		space = 60;
+	}
+	newPos = rightBound + space;
+	main.setAttribute("style","left:" + newPos + "px");
+}
+
 function adjustAd() {
 	var svgPanel = $('.svg')[0];
 	var ad = $('.ad')[0];
@@ -360,17 +378,21 @@ function adjustAd() {
 	var leftBound = ad.getBoundingClientRect().left;
 	if (leftBound < rightBound) {
 		ad.setAttribute("style","visibility:hidden;opacity:0;");
+		return "hidden";
 	}
 	else {
 		ad.setAttribute("style","visibility:show;opacity:1;");
+		return "visible";
 	}
 }
 
 $( window ).resize(function() {
 	adjustSvgWidth();
+	adjustSvgPos();
 	adjustAd();
 });
 adjustSvgWidth();
+adjustSvgPos();
 adjustAd();
 //Triggering before the close
 

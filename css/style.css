@@ -263,6 +263,13 @@ g {
 	stroke-width: 6;
 }
 
+.sidebar, .filler, .shadow-sidebar {
+	max-width: 400px !important;
+}
+.selected-kanji {
+	max-width: 200px !important;
+}
+
 @media print {
   * {
   	margin: 0 !important;

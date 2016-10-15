@@ -200,7 +200,6 @@ function startSVG() {
 	svgFlush();
 }
 function initSVG() {
-	$('.svg')[0].innerHTML = "<svg></svg>";
 	svgData.svg = $('.svg svg')[0];
 	svgData.svg.setAttribute("width", svgData.width);
 	svgData.svg.setAttribute("height", svgData.height);

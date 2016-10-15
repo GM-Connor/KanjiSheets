@@ -50,7 +50,7 @@ function search(text) {
 		entry = entry.replace(text,"");
 		var reduction = entry_length - entry.length;
 		if (reduction == text.length) {
-			match.push(xmlDoc[i].innerHTML.split("~"));
+			match.push(xmlDoc[i].childNodes[0].nodeValue.split("~"));
 		}
 	}
 	arrange(match);

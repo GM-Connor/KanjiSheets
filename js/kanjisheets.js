@@ -265,7 +265,7 @@ function createRect() {
 	var secY = svgData.current_row
 	var posX = (svgData.sectorSize * secX) - secX;
 	var posY = (svgData.sectorSize * secY) - secY;
-	var format = '<rect x="' + posX + '" y="' + posY + '" width="' + svgData.sectorSize + '" height="' + svgData.sectorSize + '"/>';
+	var format = '<rect x="' + posX + '" y="' + posY + '" width="' + svgData.sectorSize + '" height="' + svgData.sectorSize + '"></rect>';
 	appendSVG(format);
 }
 function createGrid() {
@@ -277,8 +277,8 @@ function createGrid() {
 	var l1y2 = posY + svgData.sectorSize;
 	var l2y = Math.floor(((posY*2)+svgData.sectorSize)/2);
 	var l2x2 = posX + svgData.sectorSize;
-	var line1 = '<line x1="' + l1x + '" y1="' + posY + '" x2="' + l1x + '" y2="' + l1y2 + '"/>';
-	var line2 = '<line x1="' + posX + '" y1="' + l2y + '" x2="' + l2x2 + '" y2="' + l2y + '"/>';
+	var line1 = '<line x1="' + l1x + '" y1="' + posY + '" x2="' + l1x + '" y2="' + l1y2 + '"></line>';
+	var line2 = '<line x1="' + posX + '" y1="' + l2y + '" x2="' + l2x2 + '" y2="' + l2y + '"></line>';
 
 	appendSVG(line1 + line2);
 }

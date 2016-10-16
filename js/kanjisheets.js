@@ -398,6 +398,10 @@ adjustAd();
 
 function dismissAndUpdate(element) {
 	$(element).alert('close');
+	var grid = document.getElementById("selectedkanji");
+	var newBlock = $('#selectedkanji .new');
+	newBlock.remove();
+	grid.innerHTML += gridFormat("",true);
 	startSVG();
 }
 

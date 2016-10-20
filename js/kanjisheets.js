@@ -1,100 +1,105 @@
 /*
  * Kanji Search
  */
-
-/*Triggered on site load*/
-//Gets the xml file with kanji descriptors
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-    	readXML(this);
-    }
-};
-xhttp.open("GET", "../kanjidic2.xml", true);
-xhttp.send();
-function readXML(xml) {
-	//Global var
-    xmlDoc = xml.responseXML.getElementsByTagName("c");
+function getKanjidic2(fileLocation, entryTagName) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+	    	window.kanjidic2 = this.responseXML.getElementsByTagName(entryTagName);
+	    }
+	};
+	xhttp.open('GET', fileLocation, true);
+	xhttp.send();
+	return xhttp;
 }
-function textChange(input) {
-	/*Triggered by onkeyup attr for #characters*/
-	//Converts input to lowercase to avoid disqualified results due to case mismatch
-	value = input.target.value.toLowerCase();
-	//Requires text input of atleast three characters to avoid needlessly large search results
-	if (value.length > 2) {
-		//Expands results area to expose spinning gif until overwritten with results
-		$('#search-results').collapse('show');
-		determineHeight();
-		search(value);
+
+function onInputChange(event, minLength, minToGroup) {
+	var input = getSearchInput(event.target);
+	if (input.length >= minLength) {
+		showResultsBox();
+		results = search(input);
+		outputDestination = outputResults(results, minToGroup);
+		setResultsBoxHeight(outputDestination);
 	}
 }
-function determineHeight() {
-	/*Triggered by textChange()*/
-	var characters = document.getElementById('characters');
-	//Starting y position of #characters
-	var c = characters.getBoundingClientRect().top;
-	//Starting y position of #extra
-	var e = document.getElementById('extra').getBoundingClientRect().top;
-	var h = e - c;
-	//Ensures height of #characters stops where #extra begins
-	characters.style.maxHeight = h.toString() + "px";
+
+function getSearchInput(element) {
+	return element.value.toLowerCase();
 }
-function search(text) {
-	/*Triggered by textChange()*/
-	//Empty results array
-	var match = [];
-	//Loops through xmlDoc and pushes to match each entry than contains the input text. Entry is the innerHTML exploded by the ~ delimiter.
-	for (var i=0; i < xmlDoc.length; i++) {
-		var entry = xmlDoc[i].childNodes[0].nodeValue;
-		var entry_length = entry.length;
-		entry = entry.replace(text,"");
-		var reduction = entry_length - entry.length;
-		if (reduction == text.length) {
-			match.push(xmlDoc[i].childNodes[0].nodeValue.split("~"));
+
+function search(query) {
+	var matches = [];
+	var kanjidic2 = window.kanjidic2;
+	for (var i = 0; i < kanjidic2.length; i++) {
+		var entry = kanjidic2[i].childNodes[0].nodeValue;
+		if (entry.includes(query)) {
+			matches.push(entry.match(/.~[0-9]+/)[0].split('~')); /* pushes [kanji, strokeOrder] array to matches */
 		}
 	}
-	arrange(match);
+	return sortMatches(matches); /* sorts array of arrays by second value (stroke order) ascending */
 }
-function arrange(match) {
-	/*Triggered by search()*/
-	//Sorts the array of arrays by the stroke order ([1]) ascending
-	match = match.sort(function(a, b) {
+
+function sortMatches(matches) {
+	return matches.sort(function(a, b) {
 		if (parseInt(a[1]) < parseInt(b[1])) return -1;
 		if (parseInt(a[1]) > parseInt(b[1])) return 1;
 		return 0;
 	});
-	output(match);
 }
-function output(match) {
-	/*Triggered by arrange()*/
-	//Keeps track of markers used. "Markers" are the stroke order entries on the results.
-	var markers_used = [];
-	var characters = document.getElementById("characters");
-	//Clears #characters to remove previous results/spinning gif
-	characters.innerHTML = "";
-	//Appends to #character.innerHTML each marker and kanji result. Marker only appended if kanji results count more than 24 (no need to divide kanji by stroke order when there is less than 24)
-	for (var i=0; i < match.length; i++) {
-		if ((markers_used.indexOf(match[i][1]) == -1) && (match.length > 24)) {
-			markers_used.push(match[i][1]);
-			characters.innerHTML += character_format(match[i][1], true);
+
+function outputResults(results, minToGroup) {
+	var strokeOrderMarkers = [];
+	var outputDestination = document.getElementById('characters');
+	outputDestination.innerHTML = null;
+	for (var i = 0; i < results.length; i++) {
+		var entry = results[i];
+		if ((results.length >= minToGroup) && (strokeOrderMarkers.indexOf(entry[1]) == -1)) {
+			outputDestination.appendChild(entryFormat(entry[1], true));
+			strokeOrderMarkers.push(entry[1]);
 		}
-		characters.innerHTML += character_format(match[i][0], false);
+		outputDestination.appendChild(entryFormat(entry[0], false));
 	}
+	return outputDestination;
 }
-function character_format(character, marker) {
-	/*Triggered by output()*/
-	//Returns html format for marker entry if is marker
-	if (marker === true)
-		marker = " marker";
-	//Otherwise just a kanji entry
-	else
-		marker = "";
-	//HTML format for a single result. Marker gets "marker" css class
-	result = '<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><div class="character' + marker + '"><div class="vtable"><div class="vtable-cell">' + character + '</div></div></div></div>'
-	return result;
+
+function entryFormat(string, isMarker) {
+	var marker = isMarker ? ' marker' : '';
+
+	var outer = document.createElement('div');
+	var character = document.createElement('div');
+	var vtable = document.createElement('div');
+	var vtableCell = document.createElement('div');
+
+	outer.setAttribute('class', 'col-xs-4 col-sm-4 col-md-4 col-lg-3');
+	character.setAttribute('class', 'character' + marker);
+	vtable.setAttribute('class', 'vtable');
+	vtableCell.setAttribute('class', 'vtable-cell');
+
+	vtableCell.innerHTML = string;
+	vtable.appendChild(vtableCell);
+	character.appendChild(vtable);
+	outer.appendChild(character);
+
+	return outer;
+}
+
+function showResultsBox() {
+	var resultsBox = $('#search-results');
+	resultsBox.collapse('show');
+	return resultsBox;
+}
+
+function setResultsBoxHeight(output) {
+	var outputTop = output.getBoundingClientRect().top;
+	var extra = document.getElementById('extra')
+	var extraTop = extra.getBoundingClientRect().top;
+	var maxOutputHeight = extraTop - outputTop;
+	output.style.maxHeight = maxOutputHeight.toString() + 'px'; /* Ensures height of output box stops where #extra begins */
+	return output;
 }
 
 
+/* To rewrite */
 
 
 
@@ -415,4 +420,19 @@ $('#search-results').on("click", ".character", function() {
 $('.shadow .clear').click(function() {
 	document.getElementById("selectedkanji").innerHTML = gridFormat("",true);
 	startSVG();
+});
+
+
+
+
+
+/* Start */
+
+var MINCHARS = 3;     /* Minimum input length to initiate search */
+var MINRESULTS = 25;  /* Minimum results to use stroke order grouping (aka markers)*/
+
+getKanjidic2('../kanjidic2.xml', 'c');
+
+document.getElementById("search").addEventListener("keyup", function() {
+	onInputChange(event, MINCHARS, MINRESULTS);
 });

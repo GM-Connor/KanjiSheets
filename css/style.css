@@ -313,3 +313,15 @@ g {
     width: 16.66667%;
 	}
 }
+
+/* height */
+@media (max-height: 460px) {
+	.sidebar .about {
+		display: none;
+	}
+}
+@media (max-height: 360px) {
+	.sidebar .icons {
+		display: none;
+	}
+}

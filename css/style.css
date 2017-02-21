@@ -86,11 +86,13 @@ input:focus {
 	background: #293946;
 	border-color: #23313c;
 	color: #999;
+	margin-bottom: 10px;
 }
 .sidebar .extra .icons {
 	background: none;
 	border: none;
 	box-shadow: none;
+	display: none;
 }
 .sidebar .extra .icons img {
 	cursor: pointer;
@@ -200,6 +202,11 @@ input:focus {
 	right: 0;
 	top: 0;
 	width: 315px;
+}
+.patreon img {
+	padding-bottom: 10px;
+	width: 100%;
+
 }
 
 /*

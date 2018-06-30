@@ -88,6 +88,9 @@ input:focus {
 	color: #999;
 	margin-bottom: 10px;
 }
+.sidebar .extra .amazon .about {
+	padding: 0 5px;
+}
 .sidebar .extra .icons {
 	background: none;
 	border: none;
@@ -203,10 +206,12 @@ input:focus {
 	top: 0;
 	width: 315px;
 }
+
+/* Switched patreon for Amazon */
+.patreon { display: none; }
 .patreon img {
 	padding-bottom: 10px;
 	width: 100%;
-
 }
 
 /*
